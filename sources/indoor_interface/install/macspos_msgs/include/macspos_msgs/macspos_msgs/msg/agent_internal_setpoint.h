@@ -1,0 +1,1 @@
+/home/workspace/indoor_interface/build/macspos_msgs/rosidl_generator_c/macspos_msgs/msg/agent_internal_setpoint.h

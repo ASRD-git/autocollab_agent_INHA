@@ -1,0 +1,6 @@
+msg/AgentExternalState.idl
+msg/AgentExternalState.msg
+msg/AgentInternalSetpoint.idl
+msg/AgentInternalSetpoint.msg
+msg/AgentInternalState.idl
+msg/AgentInternalState.msg

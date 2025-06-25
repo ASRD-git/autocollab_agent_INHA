@@ -1,0 +1,663 @@
+[0.000000] (-) TimerEvent: {}
+[0.000144] (macspos_msgs) JobQueued: {'identifier': 'macspos_msgs', 'dependencies': OrderedDict()}
+[0.000172] (mocap4r2_msgs) JobQueued: {'identifier': 'mocap4r2_msgs', 'dependencies': OrderedDict()}
+[0.000192] (qcf_interface) JobQueued: {'identifier': 'qcf_interface', 'dependencies': OrderedDict()}
+[0.000211] (macspos_msgs) JobStarted: {'identifier': 'macspos_msgs'}
+[0.002814] (mocap4r2_msgs) JobStarted: {'identifier': 'mocap4r2_msgs'}
+[0.004575] (qcf_interface) JobStarted: {'identifier': 'qcf_interface'}
+[0.006219] (macspos_msgs) JobProgress: {'identifier': 'macspos_msgs', 'progress': 'cmake'}
+[0.006528] (macspos_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/workspace/indoor_interface/src/macspos_msgs', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/workspace/indoor_interface/install/macspos_msgs'], 'cwd': '/home/workspace/indoor_interface/build/macspos_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'lsy-MS-7E01'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/home/workspace/indoor_interface/src'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/workspace/indoor_interface/build/macspos_msgs'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.007853] (mocap4r2_msgs) JobProgress: {'identifier': 'mocap4r2_msgs', 'progress': 'cmake'}
+[0.008012] (mocap4r2_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/workspace/indoor_interface/src/mocap4r2_msgs', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/workspace/indoor_interface/install/mocap4r2_msgs'], 'cwd': '/home/workspace/indoor_interface/build/mocap4r2_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'lsy-MS-7E01'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/home/workspace/indoor_interface/src'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/workspace/indoor_interface/build/mocap4r2_msgs'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.009799] (qcf_interface) JobProgress: {'identifier': 'qcf_interface', 'progress': 'cmake'}
+[0.010044] (qcf_interface) Command: {'cmd': ['/usr/bin/cmake', '/home/workspace/indoor_interface/src/qcf_interface', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/workspace/indoor_interface/install/qcf_interface'], 'cwd': '/home/workspace/indoor_interface/build/qcf_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'lsy-MS-7E01'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/home/workspace/indoor_interface/src'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/workspace/indoor_interface/build/qcf_interface'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.051477] (qcf_interface) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.051684] (mocap4r2_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.052441] (macspos_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.088284] (qcf_interface) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.089829] (mocap4r2_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.091896] (macspos_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.092466] (qcf_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.093951] (mocap4r2_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.095838] (macspos_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099519] (-) TimerEvent: {}
+[0.141978] (mocap4r2_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.144742] (qcf_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.145049] (macspos_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.146070] (mocap4r2_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.146224] (mocap4r2_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.146438] (mocap4r2_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.148178] (mocap4r2_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.149015] (qcf_interface) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.149204] (qcf_interface) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.149282] (macspos_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.149495] (qcf_interface) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.149529] (macspos_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.149746] (macspos_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.151537] (qcf_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.151740] (macspos_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199623] (-) TimerEvent: {}
+[0.201868] (mocap4r2_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.203862] (macspos_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.206069] (mocap4r2_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.206216] (mocap4r2_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.206435] (qcf_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.206523] (mocap4r2_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.207540] (mocap4r2_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.207950] (macspos_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.208132] (macspos_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.208391] (macspos_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.209325] (macspos_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.212133] (qcf_interface) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.212305] (qcf_interface) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.212579] (qcf_interface) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.213557] (qcf_interface) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299388] (mocap4r2_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.299675] (-) TimerEvent: {}
+[0.302511] (macspos_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.307876] (qcf_interface) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.333832] (mocap4r2_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.341893] (macspos_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.346613] (mocap4r2_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.348602] (mocap4r2_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.348966] (qcf_interface) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.352719] (mocap4r2_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.358477] (macspos_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.360572] (macspos_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.361956] (qcf_interface) StdoutLine: {'line': b'-- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[0.362716] (qcf_interface) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.363891] (macspos_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.364121] (qcf_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.367119] (qcf_interface) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.374083] (mocap4r2_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.383795] (macspos_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.386513] (qcf_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.391546] (mocap4r2_msgs) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)\n'}
+[0.398481] (mocap4r2_msgs) StdoutLine: {'line': b'-- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[0.399746] (-) TimerEvent: {}
+[0.400662] (macspos_msgs) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)\n'}
+[0.403672] (qcf_interface) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.405561] (mocap4r2_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.407379] (macspos_msgs) StdoutLine: {'line': b'-- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[0.413939] (macspos_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.454475] (qcf_interface) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.454706] (qcf_interface) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.454915] (qcf_interface) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.455499] (qcf_interface) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.456244] (qcf_interface) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.457972] (qcf_interface) StdoutLine: {'line': b'-- Generating done\n'}
+[0.460987] (qcf_interface) StdoutLine: {'line': b'-- Build files have been written to: /home/workspace/indoor_interface/build/qcf_interface\n'}
+[0.463829] (qcf_interface) CommandEnded: {'returncode': 0}
+[0.464127] (qcf_interface) JobProgress: {'identifier': 'qcf_interface', 'progress': 'build'}
+[0.464558] (qcf_interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/workspace/indoor_interface/build/qcf_interface', '--', '-j20', '-l20'], 'cwd': '/home/workspace/indoor_interface/build/qcf_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'lsy-MS-7E01'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/home/workspace/indoor_interface/src'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/workspace/indoor_interface/build/qcf_interface'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.489856] (qcf_interface) CommandEnded: {'returncode': 0}
+[0.490148] (qcf_interface) JobProgress: {'identifier': 'qcf_interface', 'progress': 'install'}
+[0.495853] (qcf_interface) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/workspace/indoor_interface/build/qcf_interface'], 'cwd': '/home/workspace/indoor_interface/build/qcf_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'lsy-MS-7E01'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/home/workspace/indoor_interface/src'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/workspace/indoor_interface/build/qcf_interface'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.499569] (qcf_interface) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.499804] (-) TimerEvent: {}
+[0.499889] (qcf_interface) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.499961] (qcf_interface) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/qcf_interface/lib/qcf_interface/main.py\n'}
+[0.503910] (qcf_interface) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/qcf_interface/share/ament_index/resource_index/package_run_dependencies/qcf_interface\n'}
+[0.508258] (qcf_interface) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/qcf_interface/share/ament_index/resource_index/parent_prefix_path/qcf_interface\n'}
+[0.513115] (qcf_interface) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/qcf_interface/share/qcf_interface/environment/ament_prefix_path.sh\n'}
+[0.517492] (qcf_interface) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/qcf_interface/share/qcf_interface/environment/ament_prefix_path.dsv\n'}
+[0.523491] (qcf_interface) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/qcf_interface/share/qcf_interface/environment/path.sh\n'}
+[0.528749] (qcf_interface) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/qcf_interface/share/qcf_interface/environment/path.dsv\n'}
+[0.532885] (qcf_interface) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/qcf_interface/share/qcf_interface/local_setup.bash\n'}
+[0.537446] (qcf_interface) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/qcf_interface/share/qcf_interface/local_setup.sh\n'}
+[0.541772] (qcf_interface) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/qcf_interface/share/qcf_interface/local_setup.zsh\n'}
+[0.547838] (qcf_interface) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/qcf_interface/share/qcf_interface/local_setup.dsv\n'}
+[0.553072] (qcf_interface) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/qcf_interface/share/qcf_interface/package.dsv\n'}
+[0.557941] (qcf_interface) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/qcf_interface/share/ament_index/resource_index/packages/qcf_interface\n'}
+[0.562177] (qcf_interface) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/qcf_interface/share/qcf_interface/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.567784] (qcf_interface) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/qcf_interface/share/qcf_interface/cmake/qcf_interfaceConfig.cmake\n'}
+[0.573380] (qcf_interface) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/qcf_interface/share/qcf_interface/cmake/qcf_interfaceConfig-version.cmake\n'}
+[0.578805] (qcf_interface) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/qcf_interface/share/qcf_interface/package.xml\n'}
+[0.585052] (qcf_interface) CommandEnded: {'returncode': 0}
+[0.592980] (qcf_interface) JobEnded: {'identifier': 'qcf_interface', 'rc': 0}
+[0.599870] (-) TimerEvent: {}
+[0.604133] (mocap4r2_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.607836] (macspos_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.700044] (-) TimerEvent: {}
+[0.742973] (mocap4r2_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.753297] (macspos_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.800197] (-) TimerEvent: {}
+[0.900436] (-) TimerEvent: {}
+[0.939492] (macspos_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.947089] (mocap4r2_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.953700] (macspos_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[0.954276] (macspos_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[0.959816] (mocap4r2_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[0.960420] (mocap4r2_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[0.969807] (macspos_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[0.969920] (macspos_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.969978] (macspos_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[0.970035] (macspos_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[0.975711] (mocap4r2_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[0.975803] (mocap4r2_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.975859] (mocap4r2_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[0.975913] (mocap4r2_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[0.981929] (macspos_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[0.988858] (mocap4r2_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.000536] (-) TimerEvent: {}
+[1.019942] (macspos_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.026022] (mocap4r2_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.038346] (macspos_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[1.044735] (macspos_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/workspace/indoor_interface/build/macspos_msgs\n'}
+[1.046404] (mocap4r2_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[1.048394] (macspos_msgs) CommandEnded: {'returncode': 0}
+[1.049255] (macspos_msgs) JobProgress: {'identifier': 'macspos_msgs', 'progress': 'build'}
+[1.049277] (macspos_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/workspace/indoor_interface/build/macspos_msgs', '--', '-j20', '-l20'], 'cwd': '/home/workspace/indoor_interface/build/macspos_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'lsy-MS-7E01'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/home/workspace/indoor_interface/src'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/workspace/indoor_interface/build/macspos_msgs'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.052736] (mocap4r2_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/workspace/indoor_interface/build/mocap4r2_msgs\n'}
+[1.056027] (mocap4r2_msgs) CommandEnded: {'returncode': 0}
+[1.056240] (mocap4r2_msgs) JobProgress: {'identifier': 'mocap4r2_msgs', 'progress': 'build'}
+[1.056935] (mocap4r2_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/workspace/indoor_interface/build/mocap4r2_msgs', '--', '-j20', '-l20'], 'cwd': '/home/workspace/indoor_interface/build/mocap4r2_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'lsy-MS-7E01'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/home/workspace/indoor_interface/src'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/workspace/indoor_interface/build/mocap4r2_msgs'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.077467] (macspos_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.084369] (macspos_msgs) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.088489] (macspos_msgs) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_symlink_macspos_msgs\n'}
+[1.088755] (mocap4r2_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.093811] (mocap4r2_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.100603] (-) TimerEvent: {}
+[1.101635] (mocap4r2_msgs) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_symlink_mocap4r2_msgs\n'}
+[1.200694] (-) TimerEvent: {}
+[1.209145] (macspos_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[1.209512] (macspos_msgs) StdoutLine: {'line': b'creating macspos_msgs.egg-info\n'}
+[1.209609] (macspos_msgs) StdoutLine: {'line': b'writing macspos_msgs.egg-info/PKG-INFO\n'}
+[1.209696] (macspos_msgs) StdoutLine: {'line': b'writing dependency_links to macspos_msgs.egg-info/dependency_links.txt\n'}
+[1.209797] (macspos_msgs) StdoutLine: {'line': b'writing top-level names to macspos_msgs.egg-info/top_level.txt\n'}
+[1.209851] (macspos_msgs) StdoutLine: {'line': b"writing manifest file 'macspos_msgs.egg-info/SOURCES.txt'\n"}
+[1.210810] (macspos_msgs) StdoutLine: {'line': b"reading manifest file 'macspos_msgs.egg-info/SOURCES.txt'\n"}
+[1.211094] (macspos_msgs) StdoutLine: {'line': b"writing manifest file 'macspos_msgs.egg-info/SOURCES.txt'\n"}
+[1.226016] (mocap4r2_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[1.226480] (mocap4r2_msgs) StdoutLine: {'line': b'creating mocap4r2_msgs.egg-info\n'}
+[1.226624] (mocap4r2_msgs) StdoutLine: {'line': b'writing mocap4r2_msgs.egg-info/PKG-INFO\n'}
+[1.226707] (mocap4r2_msgs) StdoutLine: {'line': b'writing dependency_links to mocap4r2_msgs.egg-info/dependency_links.txt\n'}
+[1.226784] (mocap4r2_msgs) StdoutLine: {'line': b'writing top-level names to mocap4r2_msgs.egg-info/top_level.txt\n'}
+[1.226831] (mocap4r2_msgs) StdoutLine: {'line': b"writing manifest file 'mocap4r2_msgs.egg-info/SOURCES.txt'\n"}
+[1.227156] (macspos_msgs) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_build_macspos_msgs_egg\n'}
+[1.227673] (mocap4r2_msgs) StdoutLine: {'line': b"reading manifest file 'mocap4r2_msgs.egg-info/SOURCES.txt'\n"}
+[1.227939] (mocap4r2_msgs) StdoutLine: {'line': b"writing manifest file 'mocap4r2_msgs.egg-info/SOURCES.txt'\n"}
+[1.244152] (mocap4r2_msgs) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_build_mocap4r2_msgs_egg\n'}
+[1.272130] (macspos_msgs) StdoutLine: {'line': b'[  4%] Built target macspos_msgs__cpp\n'}
+[1.279585] (macspos_msgs) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.280351] (macspos_msgs) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.280442] (macspos_msgs) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.292819] (macspos_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/macspos_msgs__rosidl_generator_c.dir/rosidl_generator_c/macspos_msgs/msg/detail/agent_internal_setpoint__functions.c.o\x1b[0m\n'}
+[1.293399] (macspos_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/macspos_msgs__rosidl_generator_c.dir/rosidl_generator_c/macspos_msgs/msg/detail/agent_external_state__functions.c.o\x1b[0m\n'}
+[1.294118] (macspos_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/macspos_msgs__rosidl_generator_c.dir/rosidl_generator_c/macspos_msgs/msg/detail/agent_internal_state__functions.c.o\x1b[0m\n'}
+[1.300826] (-) TimerEvent: {}
+[1.330548] (mocap4r2_msgs) StdoutLine: {'line': b'[  3%] Built target mocap4r2_msgs__cpp\n'}
+[1.337655] (mocap4r2_msgs) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.337804] (macspos_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking C shared library libmacspos_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[1.338926] (mocap4r2_msgs) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.340312] (mocap4r2_msgs) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.351274] (mocap4r2_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/mocap4r2_msgs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_msgs/msg/detail/imus_info__functions.c.o\x1b[0m\n'}
+[1.353052] (mocap4r2_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/mocap4r2_msgs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_msgs/msg/detail/marker__functions.c.o\x1b[0m\n'}
+[1.353246] (mocap4r2_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/mocap4r2_msgs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_msgs/msg/detail/markers__functions.c.o\x1b[0m\n'}
+[1.353374] (mocap4r2_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/mocap4r2_msgs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_msgs/msg/detail/rigid_body__functions.c.o\x1b[0m\n'}
+[1.353471] (mocap4r2_msgs) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/mocap4r2_msgs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_msgs/msg/detail/rigid_bodies__functions.c.o\x1b[0m\n'}
+[1.358560] (macspos_msgs) StdoutLine: {'line': b'[ 19%] Built target macspos_msgs__rosidl_generator_c\n'}
+[1.364270] (macspos_msgs) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.366370] (macspos_msgs) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.367107] (macspos_msgs) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.395463] (mocap4r2_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32m\x1b[1mLinking C shared library libmocap4r2_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[1.400926] (-) TimerEvent: {}
+[1.427349] (mocap4r2_msgs) StdoutLine: {'line': b'[ 17%] Built target mocap4r2_msgs__rosidl_generator_c\n'}
+[1.432676] (mocap4r2_msgs) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.436161] (mocap4r2_msgs) StdoutLine: {'line': b'[ 22%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.436295] (mocap4r2_msgs) StdoutLine: {'line': b'[ 22%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.439141] (macspos_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/macspos_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/macspos_msgs/msg/agent_internal_state__type_support.cpp.o\x1b[0m\n'}
+[1.439285] (macspos_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/macspos_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/macspos_msgs/msg/agent_internal_setpoint__type_support.cpp.o\x1b[0m\n'}
+[1.439351] (macspos_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/macspos_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/macspos_msgs/msg/agent_external_state__type_support.cpp.o\x1b[0m\n'}
+[1.488987] (macspos_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/macspos_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/macspos_msgs/msg/detail/dds_fastrtps/agent_external_state__type_support.cpp.o\x1b[0m\n'}
+[1.489145] (macspos_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/macspos_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/macspos_msgs/msg/detail/dds_fastrtps/agent_internal_state__type_support.cpp.o\x1b[0m\n'}
+[1.489209] (macspos_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/macspos_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/macspos_msgs/msg/detail/dds_fastrtps/agent_internal_setpoint__type_support.cpp.o\x1b[0m\n'}
+[1.501018] (-) TimerEvent: {}
+[1.525198] (macspos_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/macspos_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/macspos_msgs/msg/agent_internal_state__type_support.cpp.o\x1b[0m\n'}
+[1.525340] (macspos_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/macspos_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/macspos_msgs/msg/agent_internal_setpoint__type_support.cpp.o\x1b[0m\n'}
+[1.530970] (macspos_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/macspos_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/macspos_msgs/msg/agent_external_state__type_support.cpp.o\x1b[0m\n'}
+[1.548438] (mocap4r2_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mocap4r2_msgs/msg/detail/marker__type_support.cpp.o\x1b[0m\n'}
+[1.548930] (mocap4r2_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mocap4r2_msgs/msg/detail/imus_info__type_support.cpp.o\x1b[0m\n'}
+[1.550491] (mocap4r2_msgs) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mocap4r2_msgs/msg/detail/markers__type_support.cpp.o\x1b[0m\n'}
+[1.556116] (mocap4r2_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mocap4r2_msgs/msg/detail/rigid_body__type_support.cpp.o\x1b[0m\n'}
+[1.560385] (mocap4r2_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mocap4r2_msgs/msg/detail/rigid_bodies__type_support.cpp.o\x1b[0m\n'}
+[1.565058] (macspos_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32m\x1b[1mLinking CXX shared library libmacspos_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[1.587755] (macspos_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/macspos_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/macspos_msgs/msg/detail/agent_internal_setpoint__type_support.cpp.o\x1b[0m\n'}
+[1.587932] (macspos_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/macspos_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/macspos_msgs/msg/detail/agent_external_state__type_support_c.cpp.o\x1b[0m\n'}
+[1.589843] (macspos_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/macspos_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/macspos_msgs/msg/detail/agent_external_state__type_support.cpp.o\x1b[0m\n'}
+[1.592371] (macspos_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/macspos_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/macspos_msgs/msg/detail/agent_internal_state__type_support_c.cpp.o\x1b[0m\n'}
+[1.594210] (macspos_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/macspos_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/macspos_msgs/msg/detail/agent_internal_state__type_support.cpp.o\x1b[0m\n'}
+[1.597656] (macspos_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/macspos_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/macspos_msgs/msg/detail/agent_internal_setpoint__type_support_c.cpp.o\x1b[0m\n'}
+[1.601126] (-) TimerEvent: {}
+[1.619400] (macspos_msgs) StdoutLine: {'line': b'[ 59%] Built target macspos_msgs__rosidl_typesupport_c\n'}
+[1.621723] (macspos_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding C object CMakeFiles/macspos_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/macspos_msgs/msg/detail/agent_internal_setpoint__type_support.c.o\x1b[0m\n'}
+[1.621907] (macspos_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding C object CMakeFiles/macspos_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/macspos_msgs/msg/detail/agent_external_state__type_support.c.o\x1b[0m\n'}
+[1.624883] (macspos_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding C object CMakeFiles/macspos_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/macspos_msgs/msg/detail/agent_internal_state__type_support.c.o\x1b[0m\n'}
+[1.656275] (mocap4r2_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mocap4r2_msgs/msg/markers__type_support.cpp.o\x1b[0m\n'}
+[1.663412] (mocap4r2_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mocap4r2_msgs/msg/imus_info__type_support.cpp.o\x1b[0m\n'}
+[1.663612] (mocap4r2_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mocap4r2_msgs/msg/marker__type_support.cpp.o\x1b[0m\n'}
+[1.673574] (mocap4r2_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mocap4r2_msgs/msg/rigid_bodies__type_support.cpp.o\x1b[0m\n'}
+[1.673836] (mocap4r2_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mocap4r2_msgs/msg/rigid_body__type_support.cpp.o\x1b[0m\n'}
+[1.701241] (-) TimerEvent: {}
+[1.707457] (macspos_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking C shared library libmacspos_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[1.780399] (macspos_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libmacspos_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[1.781409] (mocap4r2_msgs) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mocap4r2_msgs/msg/detail/dds_fastrtps/marker__type_support.cpp.o\x1b[0m\n'}
+[1.785207] (mocap4r2_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mocap4r2_msgs/msg/marker__type_support.cpp.o\x1b[0m\n'}
+[1.786957] (macspos_msgs) StdoutLine: {'line': b'[ 70%] Built target macspos_msgs__rosidl_typesupport_introspection_c\n'}
+[1.789164] (mocap4r2_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mocap4r2_msgs/msg/detail/dds_fastrtps/markers__type_support.cpp.o\x1b[0m\n'}
+[1.789522] (mocap4r2_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mocap4r2_msgs/msg/detail/dds_fastrtps/imus_info__type_support.cpp.o\x1b[0m\n'}
+[1.799890] (mocap4r2_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mocap4r2_msgs/msg/markers__type_support.cpp.o\x1b[0m\n'}
+[1.800154] (mocap4r2_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mocap4r2_msgs/msg/detail/dds_fastrtps/rigid_bodies__type_support.cpp.o\x1b[0m\n'}
+[1.801344] (-) TimerEvent: {}
+[1.802334] (mocap4r2_msgs) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mocap4r2_msgs/msg/detail/dds_fastrtps/rigid_body__type_support.cpp.o\x1b[0m\n'}
+[1.806441] (mocap4r2_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mocap4r2_msgs/msg/imus_info__type_support.cpp.o\x1b[0m\n'}
+[1.834124] (mocap4r2_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mocap4r2_msgs/msg/detail/marker__type_support_c.cpp.o\x1b[0m\n'}
+[1.850437] (macspos_msgs) StdoutLine: {'line': b'[ 70%] Built target macspos_msgs__rosidl_typesupport_cpp\n'}
+[1.852803] (mocap4r2_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mocap4r2_msgs/msg/rigid_body__type_support.cpp.o\x1b[0m\n'}
+[1.856227] (mocap4r2_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mocap4r2_msgs/msg/rigid_bodies__type_support.cpp.o\x1b[0m\n'}
+[1.863266] (mocap4r2_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mocap4r2_msgs/msg/detail/markers__type_support_c.cpp.o\x1b[0m\n'}
+[1.894568] (mocap4r2_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mocap4r2_msgs/msg/detail/imus_info__type_support_c.cpp.o\x1b[0m\n'}
+[1.901465] (-) TimerEvent: {}
+[1.907686] (mocap4r2_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX shared library libmocap4r2_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[1.922707] (macspos_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX shared library libmacspos_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[1.969578] (mocap4r2_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mocap4r2_msgs/msg/detail/rigid_body__type_support_c.cpp.o\x1b[0m\n'}
+[1.987478] (mocap4r2_msgs) StdoutLine: {'line': b'[ 61%] Built target mocap4r2_msgs__rosidl_typesupport_c\n'}
+[1.993906] (mocap4r2_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mocap4r2_msgs/msg/detail/rigid_bodies__type_support_c.cpp.o\x1b[0m\n'}
+[2.001586] (-) TimerEvent: {}
+[2.006837] (mocap4r2_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding C object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mocap4r2_msgs/msg/detail/marker__type_support.c.o\x1b[0m\n'}
+[2.014870] (mocap4r2_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding C object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mocap4r2_msgs/msg/detail/markers__type_support.c.o\x1b[0m\n'}
+[2.025524] (mocap4r2_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding C object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mocap4r2_msgs/msg/detail/rigid_body__type_support.c.o\x1b[0m\n'}
+[2.026859] (mocap4r2_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding C object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mocap4r2_msgs/msg/detail/rigid_bodies__type_support.c.o\x1b[0m\n'}
+[2.030408] (mocap4r2_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding C object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mocap4r2_msgs/msg/detail/imus_info__type_support.c.o\x1b[0m\n'}
+[2.076262] (mocap4r2_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libmocap4r2_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[2.076467] (mocap4r2_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking C shared library libmocap4r2_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.100660] (macspos_msgs) StdoutLine: {'line': b'[ 72%] Built target macspos_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[2.101667] (-) TimerEvent: {}
+[2.103850] (mocap4r2_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libmocap4r2_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[2.105445] (mocap4r2_msgs) StdoutLine: {'line': b'[ 76%] Built target mocap4r2_msgs__rosidl_typesupport_introspection_c\n'}
+[2.107306] (mocap4r2_msgs) StdoutLine: {'line': b'[ 76%] Built target mocap4r2_msgs__rosidl_typesupport_cpp\n'}
+[2.112379] (macspos_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libmacspos_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[2.156008] (macspos_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libmacspos_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[2.201780] (-) TimerEvent: {}
+[2.214605] (macspos_msgs) StdoutLine: {'line': b'[ 76%] Built target macspos_msgs__rosidl_typesupport_fastrtps_c\n'}
+[2.215772] (mocap4r2_msgs) StdoutLine: {'line': b'[ 76%] Built target mocap4r2_msgs__rosidl_typesupport_introspection_cpp\n'}
+[2.222470] (mocap4r2_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX shared library libmocap4r2_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.226243] (macspos_msgs) StdoutLine: {'line': b'[ 76%] Built target macspos_msgs__rosidl_typesupport_introspection_cpp\n'}
+[2.239615] (macspos_msgs) StdoutLine: {'line': b'[ 76%] Built target macspos_msgs\n'}
+[2.253772] (macspos_msgs) StdoutLine: {'line': b'[ 78%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[2.270061] (mocap4r2_msgs) StdoutLine: {'line': b'[ 77%] Built target mocap4r2_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[2.301854] (-) TimerEvent: {}
+[2.310345] (mocap4r2_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking CXX shared library libmocap4r2_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[2.353756] (mocap4r2_msgs) StdoutLine: {'line': b'[ 79%] Built target mocap4r2_msgs__rosidl_typesupport_fastrtps_c\n'}
+[2.367801] (mocap4r2_msgs) StdoutLine: {'line': b'[ 79%] Built target mocap4r2_msgs\n'}
+[2.381711] (mocap4r2_msgs) StdoutLine: {'line': b'[ 80%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[2.401961] (-) TimerEvent: {}
+[2.495410] (macspos_msgs) StdoutLine: {'line': b'[ 78%] Built target macspos_msgs__py\n'}
+[2.502095] (-) TimerEvent: {}
+[2.508828] (macspos_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/macspos_msgs__rosidl_generator_py.dir/rosidl_generator_py/macspos_msgs/msg/_agent_internal_state_s.c.o\x1b[0m\n'}
+[2.509076] (macspos_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/macspos_msgs__rosidl_generator_py.dir/rosidl_generator_py/macspos_msgs/msg/_agent_external_state_s.c.o\x1b[0m\n'}
+[2.509257] (macspos_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/macspos_msgs__rosidl_generator_py.dir/rosidl_generator_py/macspos_msgs/msg/_agent_internal_setpoint_s.c.o\x1b[0m\n'}
+[2.569423] (macspos_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/macspos_msgs/libmacspos_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[2.595937] (macspos_msgs) StdoutLine: {'line': b'[ 87%] Built target macspos_msgs__rosidl_generator_py\n'}
+[2.602182] (-) TimerEvent: {}
+[2.610108] (macspos_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/macspos_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/macspos_msgs/_macspos_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[2.610527] (macspos_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/macspos_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/macspos_msgs/_macspos_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[2.610854] (macspos_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/macspos_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/macspos_msgs/_macspos_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[2.668281] (macspos_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/macspos_msgs/macspos_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.668903] (macspos_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/macspos_msgs/macspos_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.669953] (macspos_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/macspos_msgs/macspos_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.694722] (macspos_msgs) StdoutLine: {'line': b'[100%] Built target macspos_msgs__rosidl_typesupport_c__pyext\n'}
+[2.698581] (macspos_msgs) StdoutLine: {'line': b'[100%] Built target macspos_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[2.698725] (mocap4r2_msgs) StdoutLine: {'line': b'[ 80%] Built target mocap4r2_msgs__py\n'}
+[2.702249] (-) TimerEvent: {}
+[2.702823] (macspos_msgs) StdoutLine: {'line': b'[100%] Built target macspos_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.710311] (mocap4r2_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/mocap4r2_msgs__rosidl_generator_py.dir/rosidl_generator_py/mocap4r2_msgs/msg/_markers_s.c.o\x1b[0m\n'}
+[2.710703] (macspos_msgs) CommandEnded: {'returncode': 0}
+[2.711044] (mocap4r2_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/mocap4r2_msgs__rosidl_generator_py.dir/rosidl_generator_py/mocap4r2_msgs/msg/_marker_s.c.o\x1b[0m\n'}
+[2.711288] (mocap4r2_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/mocap4r2_msgs__rosidl_generator_py.dir/rosidl_generator_py/mocap4r2_msgs/msg/_imus_info_s.c.o\x1b[0m\n'}
+[2.711406] (mocap4r2_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/mocap4r2_msgs__rosidl_generator_py.dir/rosidl_generator_py/mocap4r2_msgs/msg/_rigid_body_s.c.o\x1b[0m\n'}
+[2.711621] (macspos_msgs) JobProgress: {'identifier': 'macspos_msgs', 'progress': 'install'}
+[2.712009] (macspos_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/workspace/indoor_interface/build/macspos_msgs'], 'cwd': '/home/workspace/indoor_interface/build/macspos_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'lsy-MS-7E01'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/home/workspace/indoor_interface/src'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/workspace/indoor_interface/build/macspos_msgs'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.712931] (mocap4r2_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/mocap4r2_msgs__rosidl_generator_py.dir/rosidl_generator_py/mocap4r2_msgs/msg/_rigid_bodies_s.c.o\x1b[0m\n'}
+[2.716303] (macspos_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.716617] (macspos_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.716791] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/share/ament_index/resource_index/rosidl_interfaces/macspos_msgs\n'}
+[2.721861] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/include/macspos_msgs/macspos_msgs/msg/agent_external_state.h\n'}
+[2.727259] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/include/macspos_msgs/macspos_msgs/msg/agent_internal_setpoint.h\n'}
+[2.733714] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/include/macspos_msgs/macspos_msgs/msg/agent_internal_state.h\n'}
+[2.739488] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/include/macspos_msgs/macspos_msgs/msg/detail/agent_external_state__functions.h\n'}
+[2.746087] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/include/macspos_msgs/macspos_msgs/msg/detail/agent_external_state__struct.h\n'}
+[2.750942] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/include/macspos_msgs/macspos_msgs/msg/detail/agent_external_state__type_support.h\n'}
+[2.755692] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/include/macspos_msgs/macspos_msgs/msg/detail/agent_internal_setpoint__functions.h\n'}
+[2.760206] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/include/macspos_msgs/macspos_msgs/msg/detail/agent_internal_setpoint__struct.h\n'}
+[2.764896] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/include/macspos_msgs/macspos_msgs/msg/detail/agent_internal_setpoint__type_support.h\n'}
+[2.770355] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/include/macspos_msgs/macspos_msgs/msg/detail/agent_internal_state__functions.h\n'}
+[2.774207] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/include/macspos_msgs/macspos_msgs/msg/detail/agent_internal_state__struct.h\n'}
+[2.778198] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/include/macspos_msgs/macspos_msgs/msg/detail/agent_internal_state__type_support.h\n'}
+[2.783709] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/include/macspos_msgs/macspos_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.787991] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/environment/library_path.sh\n'}
+[2.792778] (mocap4r2_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/mocap4r2_msgs/libmocap4r2_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[2.794036] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/environment/library_path.dsv\n'}
+[2.800109] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/include/macspos_msgs/macspos_msgs/msg/detail/agent_external_state__rosidl_typesupport_fastrtps_c.h\n'}
+[2.802330] (-) TimerEvent: {}
+[2.806249] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/include/macspos_msgs/macspos_msgs/msg/detail/agent_internal_setpoint__rosidl_typesupport_fastrtps_c.h\n'}
+[2.810951] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/include/macspos_msgs/macspos_msgs/msg/detail/agent_internal_state__rosidl_typesupport_fastrtps_c.h\n'}
+[2.817052] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/include/macspos_msgs/macspos_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.818793] (mocap4r2_msgs) StdoutLine: {'line': b'[ 90%] Built target mocap4r2_msgs__rosidl_generator_py\n'}
+[2.822001] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/include/macspos_msgs/macspos_msgs/msg/detail/agent_external_state__rosidl_typesupport_introspection_c.h\n'}
+[2.829721] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/include/macspos_msgs/macspos_msgs/msg/detail/agent_internal_setpoint__rosidl_typesupport_introspection_c.h\n'}
+[2.833932] (mocap4r2_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/mocap4r2_msgs/_mocap4r2_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[2.834117] (mocap4r2_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/mocap4r2_msgs/_mocap4r2_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[2.835827] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/include/macspos_msgs/macspos_msgs/msg/detail/agent_internal_state__rosidl_typesupport_introspection_c.h\n'}
+[2.836137] (mocap4r2_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/mocap4r2_msgs/_mocap4r2_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[2.842145] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/include/macspos_msgs/macspos_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.847170] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/include/macspos_msgs/macspos_msgs/msg/agent_external_state.hpp\n'}
+[2.851029] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/include/macspos_msgs/macspos_msgs/msg/agent_internal_setpoint.hpp\n'}
+[2.856949] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/include/macspos_msgs/macspos_msgs/msg/agent_internal_state.hpp\n'}
+[2.861551] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/include/macspos_msgs/macspos_msgs/msg/detail/agent_external_state__builder.hpp\n'}
+[2.865918] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/include/macspos_msgs/macspos_msgs/msg/detail/agent_external_state__struct.hpp\n'}
+[2.872201] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/include/macspos_msgs/macspos_msgs/msg/detail/agent_external_state__traits.hpp\n'}
+[2.878091] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/include/macspos_msgs/macspos_msgs/msg/detail/agent_internal_setpoint__builder.hpp\n'}
+[2.883125] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/include/macspos_msgs/macspos_msgs/msg/detail/agent_internal_setpoint__struct.hpp\n'}
+[2.889028] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/include/macspos_msgs/macspos_msgs/msg/detail/agent_internal_setpoint__traits.hpp\n'}
+[2.893972] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/include/macspos_msgs/macspos_msgs/msg/detail/agent_internal_state__builder.hpp\n'}
+[2.896523] (mocap4r2_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/mocap4r2_msgs/mocap4r2_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.900495] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/include/macspos_msgs/macspos_msgs/msg/detail/agent_internal_state__struct.hpp\n'}
+[2.900890] (mocap4r2_msgs) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/mocap4r2_msgs/mocap4r2_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.901329] (mocap4r2_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/mocap4r2_msgs/mocap4r2_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.902384] (-) TimerEvent: {}
+[2.905479] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/include/macspos_msgs/macspos_msgs/msg/detail/agent_internal_state__traits.hpp\n'}
+[2.911156] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/include/macspos_msgs/macspos_msgs/msg/detail/agent_external_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.917188] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/include/macspos_msgs/macspos_msgs/msg/detail/agent_internal_setpoint__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.922609] (mocap4r2_msgs) StdoutLine: {'line': b'[100%] Built target mocap4r2_msgs__rosidl_typesupport_c__pyext\n'}
+[2.923615] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/include/macspos_msgs/macspos_msgs/msg/detail/agent_internal_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.928365] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/include/macspos_msgs/macspos_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.930704] (mocap4r2_msgs) StdoutLine: {'line': b'[100%] Built target mocap4r2_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.931452] (mocap4r2_msgs) StdoutLine: {'line': b'[100%] Built target mocap4r2_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[2.933009] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/include/macspos_msgs/macspos_msgs/msg/detail/agent_external_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.939107] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/include/macspos_msgs/macspos_msgs/msg/detail/agent_internal_setpoint__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.939835] (mocap4r2_msgs) CommandEnded: {'returncode': 0}
+[2.940366] (mocap4r2_msgs) JobProgress: {'identifier': 'mocap4r2_msgs', 'progress': 'install'}
+[2.940692] (mocap4r2_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/workspace/indoor_interface/build/mocap4r2_msgs'], 'cwd': '/home/workspace/indoor_interface/build/mocap4r2_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'lsy-MS-7E01'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/home/workspace/indoor_interface/src'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/workspace/indoor_interface/build/mocap4r2_msgs'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.943227] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/include/macspos_msgs/macspos_msgs/msg/detail/agent_internal_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.945953] (mocap4r2_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.946371] (mocap4r2_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.946510] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/ament_index/resource_index/rosidl_interfaces/mocap4r2_msgs\n'}
+[2.948467] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/environment/pythonpath.sh\n'}
+[2.950916] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/imus_info__functions.h\n'}
+[2.953004] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/environment/pythonpath.dsv\n'}
+[2.959059] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/imus_info__struct.h\n'}
+[2.961411] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/local/lib/python3.10/dist-packages/macspos_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[2.966603] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/imus_info__type_support.h\n'}
+[2.969127] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/local/lib/python3.10/dist-packages/macspos_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[2.976351] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/marker__functions.h\n'}
+[2.978375] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/local/lib/python3.10/dist-packages/macspos_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[2.985945] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/marker__struct.h\n'}
+[2.986877] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/local/lib/python3.10/dist-packages/macspos_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[2.992614] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/marker__type_support.h\n'}
+[2.996222] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/local/lib/python3.10/dist-packages/macspos_msgs/__init__.py\n'}
+[3.002475] (-) TimerEvent: {}
+[3.003868] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/markers__functions.h\n'}
+[3.005598] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/local/lib/python3.10/dist-packages/macspos_msgs/_macspos_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[3.010739] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/markers__struct.h\n'}
+[3.012910] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/local/lib/python3.10/dist-packages/macspos_msgs/_macspos_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[3.022786] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/markers__type_support.h\n'}
+[3.024516] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/local/lib/python3.10/dist-packages/macspos_msgs/_macspos_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[3.028410] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_bodies__functions.h\n'}
+[3.031447] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/local/lib/python3.10/dist-packages/macspos_msgs/libmacspos_msgs__rosidl_generator_py.so\n'}
+[3.033193] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_bodies__struct.h\n'}
+[3.039555] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/local/lib/python3.10/dist-packages/macspos_msgs/macspos_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.041118] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_bodies__type_support.h\n'}
+[3.046187] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/local/lib/python3.10/dist-packages/macspos_msgs/macspos_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.046990] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_body__functions.h\n'}
+[3.052618] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/local/lib/python3.10/dist-packages/macspos_msgs/macspos_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.055668] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_body__struct.h\n'}
+[3.062140] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/local/lib/python3.10/dist-packages/macspos_msgs/msg/__init__.py\n'}
+[3.063959] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_body__type_support.h\n'}
+[3.069924] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/local/lib/python3.10/dist-packages/macspos_msgs/msg/_agent_external_state.py\n'}
+[3.072616] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/imus_info.h\n'}
+[3.078999] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/local/lib/python3.10/dist-packages/macspos_msgs/msg/_agent_external_state_s.c\n'}
+[3.085079] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/marker.h\n'}
+[3.091025] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/local/lib/python3.10/dist-packages/macspos_msgs/msg/_agent_internal_setpoint.py\n'}
+[3.096459] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/markers.h\n'}
+[3.100719] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/local/lib/python3.10/dist-packages/macspos_msgs/msg/_agent_internal_setpoint_s.c\n'}
+[3.102593] (-) TimerEvent: {}
+[3.105797] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/rigid_bodies.h\n'}
+[3.108822] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/local/lib/python3.10/dist-packages/macspos_msgs/msg/_agent_internal_state.py\n'}
+[3.112619] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/rigid_body.h\n'}
+[3.116677] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/local/lib/python3.10/dist-packages/macspos_msgs/msg/_agent_internal_state_s.c\n'}
+[3.122635] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[3.131720] (macspos_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/workspace/indoor_interface/install/macspos_msgs/local/lib/python3.10/dist-packages/macspos_msgs/macspos_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.132233] (macspos_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/workspace/indoor_interface/install/macspos_msgs/local/lib/python3.10/dist-packages/macspos_msgs/macspos_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.132659] (macspos_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/workspace/indoor_interface/install/macspos_msgs/local/lib/python3.10/dist-packages/macspos_msgs/macspos_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.133060] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/msg/AgentExternalState.idl\n'}
+[3.135187] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/environment/library_path.sh\n'}
+[3.142789] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/msg/AgentInternalSetpoint.idl\n'}
+[3.145773] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/environment/library_path.dsv\n'}
+[3.151543] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/msg/AgentInternalState.idl\n'}
+[3.154483] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/imus_info__rosidl_typesupport_fastrtps_c.h\n'}
+[3.159509] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/msg/AgentExternalState.msg\n'}
+[3.165863] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/marker__rosidl_typesupport_fastrtps_c.h\n'}
+[3.170417] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/msg/AgentInternalSetpoint.msg\n'}
+[3.174326] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/markers__rosidl_typesupport_fastrtps_c.h\n'}
+[3.180729] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/msg/AgentInternalState.msg\n'}
+[3.185243] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_bodies__rosidl_typesupport_fastrtps_c.h\n'}
+[3.190099] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/share/ament_index/resource_index/package_run_dependencies/macspos_msgs\n'}
+[3.197503] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_body__rosidl_typesupport_fastrtps_c.h\n'}
+[3.202153] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/share/ament_index/resource_index/parent_prefix_path/macspos_msgs\n'}
+[3.202645] (-) TimerEvent: {}
+[3.209236] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[3.214065] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/environment/ament_prefix_path.sh\n'}
+[3.221175] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/imus_info__rosidl_typesupport_introspection_c.h\n'}
+[3.228733] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/environment/ament_prefix_path.dsv\n'}
+[3.233098] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/marker__rosidl_typesupport_introspection_c.h\n'}
+[3.237415] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/environment/path.sh\n'}
+[3.241704] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/markers__rosidl_typesupport_introspection_c.h\n'}
+[3.244859] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/environment/path.dsv\n'}
+[3.248189] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_bodies__rosidl_typesupport_introspection_c.h\n'}
+[3.250187] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/local_setup.bash\n'}
+[3.254190] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_body__rosidl_typesupport_introspection_c.h\n'}
+[3.255658] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/local_setup.sh\n'}
+[3.260036] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[3.262820] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/local_setup.zsh\n'}
+[3.267042] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/imus_info__builder.hpp\n'}
+[3.267240] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/local_setup.dsv\n'}
+[3.271384] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/imus_info__struct.hpp\n'}
+[3.272914] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/package.dsv\n'}
+[3.278324] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/imus_info__traits.hpp\n'}
+[3.279987] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/share/ament_index/resource_index/packages/macspos_msgs\n'}
+[3.285893] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/marker__builder.hpp\n'}
+[3.287075] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[3.293204] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.293711] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/marker__struct.hpp\n'}
+[3.300793] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.302149] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/marker__traits.hpp\n'}
+[3.302706] (-) TimerEvent: {}
+[3.307264] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.310269] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/markers__builder.hpp\n'}
+[3.312174] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.317609] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/markers__struct.hpp\n'}
+[3.322812] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[3.324542] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/markers__traits.hpp\n'}
+[3.329977] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[3.334672] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_bodies__builder.hpp\n'}
+[3.338172] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/cmake/macspos_msgsConfig.cmake\n'}
+[3.341949] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_bodies__struct.hpp\n'}
+[3.344412] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/cmake/macspos_msgsConfig-version.cmake\n'}
+[3.346355] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_bodies__traits.hpp\n'}
+[3.349059] (macspos_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/package.xml\n'}
+[3.351293] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_body__builder.hpp\n'}
+[3.355770] (macspos_msgs) StdoutLine: {'line': b'-- Installing: /home/workspace/indoor_interface/install/macspos_msgs/lib/libmacspos_msgs__rosidl_generator_c.so\n'}
+[3.356039] (macspos_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/workspace/indoor_interface/install/macspos_msgs/lib/libmacspos_msgs__rosidl_generator_c.so" to ""\n'}
+[3.356141] (macspos_msgs) StdoutLine: {'line': b'-- Installing: /home/workspace/indoor_interface/install/macspos_msgs/lib/libmacspos_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[3.356357] (macspos_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/workspace/indoor_interface/install/macspos_msgs/lib/libmacspos_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[3.356446] (macspos_msgs) StdoutLine: {'line': b'-- Installing: /home/workspace/indoor_interface/install/macspos_msgs/lib/libmacspos_msgs__rosidl_typesupport_introspection_c.so\n'}
+[3.356721] (macspos_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/workspace/indoor_interface/install/macspos_msgs/lib/libmacspos_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[3.356778] (macspos_msgs) StdoutLine: {'line': b'-- Installing: /home/workspace/indoor_interface/install/macspos_msgs/lib/libmacspos_msgs__rosidl_typesupport_c.so\n'}
+[3.357028] (macspos_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/workspace/indoor_interface/install/macspos_msgs/lib/libmacspos_msgs__rosidl_typesupport_c.so" to ""\n'}
+[3.357070] (macspos_msgs) StdoutLine: {'line': b'-- Installing: /home/workspace/indoor_interface/install/macspos_msgs/lib/libmacspos_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.357162] (macspos_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/workspace/indoor_interface/install/macspos_msgs/lib/libmacspos_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[3.357219] (macspos_msgs) StdoutLine: {'line': b'-- Installing: /home/workspace/indoor_interface/install/macspos_msgs/lib/libmacspos_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[3.357304] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_body__struct.hpp\n'}
+[3.357416] (macspos_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/workspace/indoor_interface/install/macspos_msgs/lib/libmacspos_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[3.357467] (macspos_msgs) StdoutLine: {'line': b'-- Installing: /home/workspace/indoor_interface/install/macspos_msgs/lib/libmacspos_msgs__rosidl_typesupport_cpp.so\n'}
+[3.357613] (macspos_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/workspace/indoor_interface/install/macspos_msgs/lib/libmacspos_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[3.366650] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_body__traits.hpp\n'}
+[3.373658] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/imus_info.hpp\n'}
+[3.380716] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/marker.hpp\n'}
+[3.385940] (macspos_msgs) StdoutLine: {'line': b"Listing '/home/workspace/indoor_interface/install/macspos_msgs/local/lib/python3.10/dist-packages/macspos_msgs'...\n"}
+[3.385973] (macspos_msgs) StdoutLine: {'line': b"Compiling '/home/workspace/indoor_interface/install/macspos_msgs/local/lib/python3.10/dist-packages/macspos_msgs/__init__.py'...\n"}
+[3.385998] (macspos_msgs) StdoutLine: {'line': b"Listing '/home/workspace/indoor_interface/install/macspos_msgs/local/lib/python3.10/dist-packages/macspos_msgs/msg'...\n"}
+[3.386024] (macspos_msgs) StdoutLine: {'line': b"Compiling '/home/workspace/indoor_interface/install/macspos_msgs/local/lib/python3.10/dist-packages/macspos_msgs/msg/__init__.py'...\n"}
+[3.386048] (macspos_msgs) StdoutLine: {'line': b"Compiling '/home/workspace/indoor_interface/install/macspos_msgs/local/lib/python3.10/dist-packages/macspos_msgs/msg/_agent_external_state.py'...\n"}
+[3.386071] (macspos_msgs) StdoutLine: {'line': b"Compiling '/home/workspace/indoor_interface/install/macspos_msgs/local/lib/python3.10/dist-packages/macspos_msgs/msg/_agent_internal_setpoint.py'...\n"}
+[3.386094] (macspos_msgs) StdoutLine: {'line': b"Compiling '/home/workspace/indoor_interface/install/macspos_msgs/local/lib/python3.10/dist-packages/macspos_msgs/msg/_agent_internal_state.py'...\n"}
+[3.386560] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/markers.hpp\n'}
+[3.388542] (macspos_msgs) StdoutLine: {'line': b'-- Installing: /home/workspace/indoor_interface/install/macspos_msgs/lib/libmacspos_msgs__rosidl_generator_py.so\n'}
+[3.388797] (macspos_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/workspace/indoor_interface/install/macspos_msgs/lib/libmacspos_msgs__rosidl_generator_py.so" to ""\n'}
+[3.388855] (macspos_msgs) StdoutLine: {'line': b'-- Installing: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/cmake/export_macspos_msgs__rosidl_generator_cExport.cmake\n'}
+[3.388943] (macspos_msgs) StdoutLine: {'line': b'-- Installing: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/cmake/export_macspos_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[3.389029] (macspos_msgs) StdoutLine: {'line': b'-- Installing: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/cmake/export_macspos_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[3.389108] (macspos_msgs) StdoutLine: {'line': b'-- Installing: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/cmake/export_macspos_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[3.389239] (macspos_msgs) StdoutLine: {'line': b'-- Installing: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/cmake/macspos_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[3.389320] (macspos_msgs) StdoutLine: {'line': b'-- Installing: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/cmake/macspos_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[3.389417] (macspos_msgs) StdoutLine: {'line': b'-- Installing: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/cmake/macspos_msgs__rosidl_typesupport_cExport.cmake\n'}
+[3.389495] (macspos_msgs) StdoutLine: {'line': b'-- Installing: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/cmake/macspos_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[3.389600] (macspos_msgs) StdoutLine: {'line': b'-- Installing: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/cmake/export_macspos_msgs__rosidl_generator_cppExport.cmake\n'}
+[3.389626] (macspos_msgs) StdoutLine: {'line': b'-- Installing: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/cmake/export_macspos_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[3.389798] (macspos_msgs) StdoutLine: {'line': b'-- Installing: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/cmake/export_macspos_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[3.389874] (macspos_msgs) StdoutLine: {'line': b'-- Installing: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/cmake/macspos_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[3.389907] (macspos_msgs) StdoutLine: {'line': b'-- Installing: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/cmake/macspos_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[3.389946] (macspos_msgs) StdoutLine: {'line': b'-- Installing: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/cmake/macspos_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[3.389983] (macspos_msgs) StdoutLine: {'line': b'-- Installing: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/cmake/macspos_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[3.390043] (macspos_msgs) StdoutLine: {'line': b'-- Installing: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/cmake/export_macspos_msgs__rosidl_generator_pyExport.cmake\n'}
+[3.390125] (macspos_msgs) StdoutLine: {'line': b'-- Installing: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/cmake/export_macspos_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[3.391608] (macspos_msgs) CommandEnded: {'returncode': 0}
+[3.392043] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/rigid_bodies.hpp\n'}
+[3.396645] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/rigid_body.hpp\n'}
+[3.399831] (macspos_msgs) JobEnded: {'identifier': 'macspos_msgs', 'rc': 0}
+[3.402540] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/imus_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.402764] (-) TimerEvent: {}
+[3.409983] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/marker__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.419674] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/markers__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.430451] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_bodies__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.441574] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_body__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.454036] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[3.472055] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/imus_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.482278] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/marker__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.500245] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/markers__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.502944] (-) TimerEvent: {}
+[3.513303] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_bodies__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.524725] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_body__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.535128] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/environment/pythonpath.sh\n'}
+[3.540466] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/environment/pythonpath.dsv\n'}
+[3.546271] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/local/lib/python3.10/dist-packages/mocap4r2_msgs-0.0.3-py3.10.egg-info/PKG-INFO\n'}
+[3.550560] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/local/lib/python3.10/dist-packages/mocap4r2_msgs-0.0.3-py3.10.egg-info/SOURCES.txt\n'}
+[3.555184] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/local/lib/python3.10/dist-packages/mocap4r2_msgs-0.0.3-py3.10.egg-info/dependency_links.txt\n'}
+[3.558747] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/local/lib/python3.10/dist-packages/mocap4r2_msgs-0.0.3-py3.10.egg-info/top_level.txt\n'}
+[3.564683] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/local/lib/python3.10/dist-packages/mocap4r2_msgs/__init__.py\n'}
+[3.571135] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/local/lib/python3.10/dist-packages/mocap4r2_msgs/_mocap4r2_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[3.577118] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/local/lib/python3.10/dist-packages/mocap4r2_msgs/_mocap4r2_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[3.587807] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/local/lib/python3.10/dist-packages/mocap4r2_msgs/_mocap4r2_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[3.596385] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/local/lib/python3.10/dist-packages/mocap4r2_msgs/libmocap4r2_msgs__rosidl_generator_py.so\n'}
+[3.603066] (-) TimerEvent: {}
+[3.603867] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/local/lib/python3.10/dist-packages/mocap4r2_msgs/mocap4r2_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.615109] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/local/lib/python3.10/dist-packages/mocap4r2_msgs/mocap4r2_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.631223] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/local/lib/python3.10/dist-packages/mocap4r2_msgs/mocap4r2_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.648082] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/local/lib/python3.10/dist-packages/mocap4r2_msgs/msg/__init__.py\n'}
+[3.667033] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/local/lib/python3.10/dist-packages/mocap4r2_msgs/msg/_imus_info.py\n'}
+[3.681773] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/local/lib/python3.10/dist-packages/mocap4r2_msgs/msg/_imus_info_s.c\n'}
+[3.699830] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/local/lib/python3.10/dist-packages/mocap4r2_msgs/msg/_marker.py\n'}
+[3.703167] (-) TimerEvent: {}
+[3.719253] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/local/lib/python3.10/dist-packages/mocap4r2_msgs/msg/_marker_s.c\n'}
+[3.735629] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/local/lib/python3.10/dist-packages/mocap4r2_msgs/msg/_markers.py\n'}
+[3.749860] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/local/lib/python3.10/dist-packages/mocap4r2_msgs/msg/_markers_s.c\n'}
+[3.763811] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/local/lib/python3.10/dist-packages/mocap4r2_msgs/msg/_rigid_bodies.py\n'}
+[3.773869] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/local/lib/python3.10/dist-packages/mocap4r2_msgs/msg/_rigid_bodies_s.c\n'}
+[3.778834] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/local/lib/python3.10/dist-packages/mocap4r2_msgs/msg/_rigid_body.py\n'}
+[3.786978] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/local/lib/python3.10/dist-packages/mocap4r2_msgs/msg/_rigid_body_s.c\n'}
+[3.796461] (mocap4r2_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/workspace/indoor_interface/install/mocap4r2_msgs/local/lib/python3.10/dist-packages/mocap4r2_msgs/mocap4r2_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.796879] (mocap4r2_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/workspace/indoor_interface/install/mocap4r2_msgs/local/lib/python3.10/dist-packages/mocap4r2_msgs/mocap4r2_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.797371] (mocap4r2_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/workspace/indoor_interface/install/mocap4r2_msgs/local/lib/python3.10/dist-packages/mocap4r2_msgs/mocap4r2_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.797760] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/msg/Marker.idl\n'}
+[3.803280] (-) TimerEvent: {}
+[3.814945] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/msg/Markers.idl\n'}
+[3.825818] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/msg/ImusInfo.idl\n'}
+[3.834241] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/msg/RigidBody.idl\n'}
+[3.846336] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/msg/RigidBodies.idl\n'}
+[3.856674] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/msg/Marker.msg\n'}
+[3.868440] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/msg/Markers.msg\n'}
+[3.880762] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/msg/ImusInfo.msg\n'}
+[3.896013] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/msg/RigidBody.msg\n'}
+[3.903327] (-) TimerEvent: {}
+[3.905809] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/msg/RigidBodies.msg\n'}
+[3.910234] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/mocap4r2_bridge_mapping_rule.yaml\n'}
+[3.914870] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/ament_index/resource_index/package_run_dependencies/mocap4r2_msgs\n'}
+[3.919772] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/ament_index/resource_index/parent_prefix_path/mocap4r2_msgs\n'}
+[3.925719] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/environment/ament_prefix_path.sh\n'}
+[3.930559] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/environment/ament_prefix_path.dsv\n'}
+[3.936681] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/environment/path.sh\n'}
+[3.946005] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/environment/path.dsv\n'}
+[3.959720] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/local_setup.bash\n'}
+[3.973777] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/local_setup.sh\n'}
+[3.981961] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/local_setup.zsh\n'}
+[3.999195] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/local_setup.dsv\n'}
+[4.003413] (-) TimerEvent: {}
+[4.009251] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/package.dsv\n'}
+[4.023881] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/ament_index/resource_index/packages/mocap4r2_msgs\n'}
+[4.042615] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[4.057330] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[4.073089] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[4.090151] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[4.103504] (-) TimerEvent: {}
+[4.109906] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[4.122791] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[4.128129] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[4.135534] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/mocap4r2_msgsConfig.cmake\n'}
+[4.142888] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/mocap4r2_msgsConfig-version.cmake\n'}
+[4.151529] (mocap4r2_msgs) StdoutLine: {'line': b'-- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/package.xml\n'}
+[4.158616] (mocap4r2_msgs) StdoutLine: {'line': b'-- Installing: /home/workspace/indoor_interface/install/mocap4r2_msgs/lib/libmocap4r2_msgs__rosidl_generator_c.so\n'}
+[4.158851] (mocap4r2_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/workspace/indoor_interface/install/mocap4r2_msgs/lib/libmocap4r2_msgs__rosidl_generator_c.so" to ""\n'}
+[4.158934] (mocap4r2_msgs) StdoutLine: {'line': b'-- Installing: /home/workspace/indoor_interface/install/mocap4r2_msgs/lib/libmocap4r2_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[4.159171] (mocap4r2_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/workspace/indoor_interface/install/mocap4r2_msgs/lib/libmocap4r2_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[4.159244] (mocap4r2_msgs) StdoutLine: {'line': b'-- Installing: /home/workspace/indoor_interface/install/mocap4r2_msgs/lib/libmocap4r2_msgs__rosidl_typesupport_introspection_c.so\n'}
+[4.159465] (mocap4r2_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/workspace/indoor_interface/install/mocap4r2_msgs/lib/libmocap4r2_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[4.159514] (mocap4r2_msgs) StdoutLine: {'line': b'-- Installing: /home/workspace/indoor_interface/install/mocap4r2_msgs/lib/libmocap4r2_msgs__rosidl_typesupport_c.so\n'}
+[4.159686] (mocap4r2_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/workspace/indoor_interface/install/mocap4r2_msgs/lib/libmocap4r2_msgs__rosidl_typesupport_c.so" to ""\n'}
+[4.159753] (mocap4r2_msgs) StdoutLine: {'line': b'-- Installing: /home/workspace/indoor_interface/install/mocap4r2_msgs/lib/libmocap4r2_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[4.160068] (mocap4r2_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/workspace/indoor_interface/install/mocap4r2_msgs/lib/libmocap4r2_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[4.160126] (mocap4r2_msgs) StdoutLine: {'line': b'-- Installing: /home/workspace/indoor_interface/install/mocap4r2_msgs/lib/libmocap4r2_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[4.160508] (mocap4r2_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/workspace/indoor_interface/install/mocap4r2_msgs/lib/libmocap4r2_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[4.160557] (mocap4r2_msgs) StdoutLine: {'line': b'-- Installing: /home/workspace/indoor_interface/install/mocap4r2_msgs/lib/libmocap4r2_msgs__rosidl_typesupport_cpp.so\n'}
+[4.160720] (mocap4r2_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/workspace/indoor_interface/install/mocap4r2_msgs/lib/libmocap4r2_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[4.182993] (mocap4r2_msgs) StdoutLine: {'line': b"Listing '/home/workspace/indoor_interface/install/mocap4r2_msgs/local/lib/python3.10/dist-packages/mocap4r2_msgs'...\n"}
+[4.183045] (mocap4r2_msgs) StdoutLine: {'line': b"Compiling '/home/workspace/indoor_interface/install/mocap4r2_msgs/local/lib/python3.10/dist-packages/mocap4r2_msgs/__init__.py'...\n"}
+[4.183070] (mocap4r2_msgs) StdoutLine: {'line': b"Listing '/home/workspace/indoor_interface/install/mocap4r2_msgs/local/lib/python3.10/dist-packages/mocap4r2_msgs/msg'...\n"}
+[4.183100] (mocap4r2_msgs) StdoutLine: {'line': b"Compiling '/home/workspace/indoor_interface/install/mocap4r2_msgs/local/lib/python3.10/dist-packages/mocap4r2_msgs/msg/__init__.py'...\n"}
+[4.183123] (mocap4r2_msgs) StdoutLine: {'line': b"Compiling '/home/workspace/indoor_interface/install/mocap4r2_msgs/local/lib/python3.10/dist-packages/mocap4r2_msgs/msg/_imus_info.py'...\n"}
+[4.183144] (mocap4r2_msgs) StdoutLine: {'line': b"Compiling '/home/workspace/indoor_interface/install/mocap4r2_msgs/local/lib/python3.10/dist-packages/mocap4r2_msgs/msg/_marker.py'...\n"}
+[4.183166] (mocap4r2_msgs) StdoutLine: {'line': b"Compiling '/home/workspace/indoor_interface/install/mocap4r2_msgs/local/lib/python3.10/dist-packages/mocap4r2_msgs/msg/_markers.py'...\n"}
+[4.183188] (mocap4r2_msgs) StdoutLine: {'line': b"Compiling '/home/workspace/indoor_interface/install/mocap4r2_msgs/local/lib/python3.10/dist-packages/mocap4r2_msgs/msg/_rigid_bodies.py'...\n"}
+[4.183209] (mocap4r2_msgs) StdoutLine: {'line': b"Compiling '/home/workspace/indoor_interface/install/mocap4r2_msgs/local/lib/python3.10/dist-packages/mocap4r2_msgs/msg/_rigid_body.py'...\n"}
+[4.185283] (mocap4r2_msgs) StdoutLine: {'line': b'-- Installing: /home/workspace/indoor_interface/install/mocap4r2_msgs/lib/libmocap4r2_msgs__rosidl_generator_py.so\n'}
+[4.185492] (mocap4r2_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/workspace/indoor_interface/install/mocap4r2_msgs/lib/libmocap4r2_msgs__rosidl_generator_py.so" to ""\n'}
+[4.185518] (mocap4r2_msgs) StdoutLine: {'line': b'-- Installing: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/export_mocap4r2_msgs__rosidl_generator_cExport.cmake\n'}
+[4.185605] (mocap4r2_msgs) StdoutLine: {'line': b'-- Installing: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/export_mocap4r2_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[4.185630] (mocap4r2_msgs) StdoutLine: {'line': b'-- Installing: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/export_mocap4r2_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[4.185695] (mocap4r2_msgs) StdoutLine: {'line': b'-- Installing: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/export_mocap4r2_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[4.185718] (mocap4r2_msgs) StdoutLine: {'line': b'-- Installing: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/mocap4r2_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[4.185771] (mocap4r2_msgs) StdoutLine: {'line': b'-- Installing: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/mocap4r2_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[4.185845] (mocap4r2_msgs) StdoutLine: {'line': b'-- Installing: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/mocap4r2_msgs__rosidl_typesupport_cExport.cmake\n'}
+[4.185868] (mocap4r2_msgs) StdoutLine: {'line': b'-- Installing: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/mocap4r2_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[4.185907] (mocap4r2_msgs) StdoutLine: {'line': b'-- Installing: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/export_mocap4r2_msgs__rosidl_generator_cppExport.cmake\n'}
+[4.185980] (mocap4r2_msgs) StdoutLine: {'line': b'-- Installing: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/export_mocap4r2_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[4.186004] (mocap4r2_msgs) StdoutLine: {'line': b'-- Installing: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/export_mocap4r2_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[4.186037] (mocap4r2_msgs) StdoutLine: {'line': b'-- Installing: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/mocap4r2_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[4.186069] (mocap4r2_msgs) StdoutLine: {'line': b'-- Installing: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/mocap4r2_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[4.186107] (mocap4r2_msgs) StdoutLine: {'line': b'-- Installing: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/mocap4r2_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[4.186149] (mocap4r2_msgs) StdoutLine: {'line': b'-- Installing: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/mocap4r2_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[4.186193] (mocap4r2_msgs) StdoutLine: {'line': b'-- Installing: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/export_mocap4r2_msgs__rosidl_generator_pyExport.cmake\n'}
+[4.186235] (mocap4r2_msgs) StdoutLine: {'line': b'-- Installing: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/export_mocap4r2_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[4.187450] (mocap4r2_msgs) CommandEnded: {'returncode': 0}
+[4.194769] (mocap4r2_msgs) JobEnded: {'identifier': 'mocap4r2_msgs', 'rc': 0}
+[4.195136] (-) EventReactorShutdown: {}

@@ -1,0 +1,3 @@
+/home/workspace/agent/agent/build/macspos_msgs/rosidl_adapter/macspos_msgs:msg/AgentExternalState.idl
+/home/workspace/agent/agent/build/macspos_msgs/rosidl_adapter/macspos_msgs:msg/AgentInternalSetpoint.idl
+/home/workspace/agent/agent/build/macspos_msgs/rosidl_adapter/macspos_msgs:msg/AgentInternalState.idl

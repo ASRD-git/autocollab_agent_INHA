@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "macspos_msgs__py",
+		"source" : "/home/workspace/indoor_interface/build/macspos_msgs/macspos_msgs__py"
+	}
+}

@@ -1,0 +1,21 @@
+{
+    "EXTERN_ROSPUB_LOOP_PERIOD_S"   : 0.01,
+    "INTERN_ROSPUB_LOOP_PERIOD_S"   : 0.01,
+    "SOLUTION_UPDATE_PERIOD_S"      : 10,
+    "MINIMUM_LOOP_PERIOD_S"         : 0.0001,
+    "LOOKAHEAD_HORIZON_S"           : 0.01,
+    "TRAJEC_PASS_THRESHOLD_M"       : 0.1,
+    
+    "MINIMUM_SPEED_MS"              : 0.1,
+    "MAXIMUM_SPEED_MS"              : 0.5,
+    "SAFETY_DISTANCE_M"             : 2,
+    
+    "SOLVER_MAXIMUM_ITERATIONS"     : 1000,
+    "SOLVER_TOLERANCE"              : 0.001,
+    "SOLVER_STEP_SIZE"              : 1000,
+    
+    "SEGMENT_INTERVAL_M"            : 1000
+    
+    }
+    
+    

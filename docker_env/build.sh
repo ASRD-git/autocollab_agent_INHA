@@ -1,0 +1,1 @@
+docker build --tag macspos_agent:ver0 .

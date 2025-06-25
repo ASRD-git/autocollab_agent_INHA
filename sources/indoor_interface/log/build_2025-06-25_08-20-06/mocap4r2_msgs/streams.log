@@ -1,0 +1,300 @@
+[0.007s] Invoking command in '/home/workspace/indoor_interface/build/mocap4r2_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/workspace/indoor_interface/src/mocap4r2_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/workspace/indoor_interface/install/mocap4r2_msgs
+[0.049s] -- The C compiler identification is GNU 11.4.0
+[0.087s] -- The CXX compiler identification is GNU 11.4.0
+[0.091s] -- Detecting C compiler ABI info
+[0.139s] -- Detecting C compiler ABI info - done
+[0.143s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.143s] -- Detecting C compile features
+[0.143s] -- Detecting C compile features - done
+[0.145s] -- Detecting CXX compiler ABI info
+[0.199s] -- Detecting CXX compiler ABI info - done
+[0.203s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.203s] -- Detecting CXX compile features
+[0.203s] -- Detecting CXX compile features - done
+[0.204s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.296s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.331s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.344s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.346s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.350s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.371s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.388s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.395s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[0.402s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.601s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.740s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.944s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.957s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[0.957s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.973s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[0.973s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.973s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.973s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.986s] -- Found PythonExtra: .so  
+[1.023s] -- Configuring done
+[1.043s] -- Generating done
+[1.050s] -- Build files have been written to: /home/workspace/indoor_interface/build/mocap4r2_msgs
+[1.053s] Invoked command in '/home/workspace/indoor_interface/build/mocap4r2_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/workspace/indoor_interface/src/mocap4r2_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/workspace/indoor_interface/install/mocap4r2_msgs
+[1.054s] Invoking command in '/home/workspace/indoor_interface/build/mocap4r2_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/workspace/indoor_interface/build/mocap4r2_msgs -- -j20 -l20
+[1.086s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.091s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.099s] [  3%] Built target ament_cmake_python_symlink_mocap4r2_msgs
+[1.223s] running egg_info
+[1.223s] creating mocap4r2_msgs.egg-info
+[1.223s] writing mocap4r2_msgs.egg-info/PKG-INFO
+[1.224s] writing dependency_links to mocap4r2_msgs.egg-info/dependency_links.txt
+[1.224s] writing top-level names to mocap4r2_msgs.egg-info/top_level.txt
+[1.224s] writing manifest file 'mocap4r2_msgs.egg-info/SOURCES.txt'
+[1.225s] reading manifest file 'mocap4r2_msgs.egg-info/SOURCES.txt'
+[1.225s] writing manifest file 'mocap4r2_msgs.egg-info/SOURCES.txt'
+[1.241s] [  3%] Built target ament_cmake_python_build_mocap4r2_msgs_egg
+[1.328s] [  3%] Built target mocap4r2_msgs__cpp
+[1.335s] [  4%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.336s] [  6%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.337s] [  7%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.348s] [  9%] [32mBuilding C object CMakeFiles/mocap4r2_msgs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_msgs/msg/detail/imus_info__functions.c.o[0m
+[1.350s] [ 12%] [32mBuilding C object CMakeFiles/mocap4r2_msgs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_msgs/msg/detail/marker__functions.c.o[0m
+[1.350s] [ 12%] [32mBuilding C object CMakeFiles/mocap4r2_msgs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_msgs/msg/detail/markers__functions.c.o[0m
+[1.350s] [ 14%] [32mBuilding C object CMakeFiles/mocap4r2_msgs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_msgs/msg/detail/rigid_body__functions.c.o[0m
+[1.350s] [ 15%] [32mBuilding C object CMakeFiles/mocap4r2_msgs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_msgs/msg/detail/rigid_bodies__functions.c.o[0m
+[1.392s] [ 17%] [32m[1mLinking C shared library libmocap4r2_msgs__rosidl_generator_c.so[0m
+[1.424s] [ 17%] Built target mocap4r2_msgs__rosidl_generator_c
+[1.430s] [ 19%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.433s] [ 22%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.433s] [ 22%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.545s] [ 25%] [32mBuilding CXX object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mocap4r2_msgs/msg/detail/marker__type_support.cpp.o[0m
+[1.546s] [ 25%] [32mBuilding CXX object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mocap4r2_msgs/msg/detail/imus_info__type_support.cpp.o[0m
+[1.547s] [ 26%] [32mBuilding CXX object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mocap4r2_msgs/msg/detail/markers__type_support.cpp.o[0m
+[1.553s] [ 28%] [32mBuilding CXX object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mocap4r2_msgs/msg/detail/rigid_body__type_support.cpp.o[0m
+[1.557s] [ 30%] [32mBuilding CXX object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mocap4r2_msgs/msg/detail/rigid_bodies__type_support.cpp.o[0m
+[1.653s] [ 31%] [32mBuilding CXX object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mocap4r2_msgs/msg/markers__type_support.cpp.o[0m
+[1.660s] [ 33%] [32mBuilding CXX object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mocap4r2_msgs/msg/imus_info__type_support.cpp.o[0m
+[1.660s] [ 34%] [32mBuilding CXX object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mocap4r2_msgs/msg/marker__type_support.cpp.o[0m
+[1.671s] [ 36%] [32mBuilding CXX object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mocap4r2_msgs/msg/rigid_bodies__type_support.cpp.o[0m
+[1.671s] [ 38%] [32mBuilding CXX object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mocap4r2_msgs/msg/rigid_body__type_support.cpp.o[0m
+[1.778s] [ 39%] [32mBuilding CXX object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mocap4r2_msgs/msg/detail/dds_fastrtps/marker__type_support.cpp.o[0m
+[1.782s] [ 41%] [32mBuilding CXX object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mocap4r2_msgs/msg/marker__type_support.cpp.o[0m
+[1.786s] [ 42%] [32mBuilding CXX object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mocap4r2_msgs/msg/detail/dds_fastrtps/markers__type_support.cpp.o[0m
+[1.786s] [ 44%] [32mBuilding CXX object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mocap4r2_msgs/msg/detail/dds_fastrtps/imus_info__type_support.cpp.o[0m
+[1.797s] [ 46%] [32mBuilding CXX object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mocap4r2_msgs/msg/markers__type_support.cpp.o[0m
+[1.797s] [ 47%] [32mBuilding CXX object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mocap4r2_msgs/msg/detail/dds_fastrtps/rigid_bodies__type_support.cpp.o[0m
+[1.799s] [ 49%] [32mBuilding CXX object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mocap4r2_msgs/msg/detail/dds_fastrtps/rigid_body__type_support.cpp.o[0m
+[1.803s] [ 50%] [32mBuilding CXX object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mocap4r2_msgs/msg/imus_info__type_support.cpp.o[0m
+[1.831s] [ 52%] [32mBuilding CXX object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mocap4r2_msgs/msg/detail/marker__type_support_c.cpp.o[0m
+[1.850s] [ 53%] [32mBuilding CXX object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mocap4r2_msgs/msg/rigid_body__type_support.cpp.o[0m
+[1.853s] [ 55%] [32mBuilding CXX object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mocap4r2_msgs/msg/rigid_bodies__type_support.cpp.o[0m
+[1.860s] [ 57%] [32mBuilding CXX object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mocap4r2_msgs/msg/detail/markers__type_support_c.cpp.o[0m
+[1.892s] [ 58%] [32mBuilding CXX object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mocap4r2_msgs/msg/detail/imus_info__type_support_c.cpp.o[0m
+[1.905s] [ 60%] [32m[1mLinking CXX shared library libmocap4r2_msgs__rosidl_typesupport_c.so[0m
+[1.967s] [ 61%] [32mBuilding CXX object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mocap4r2_msgs/msg/detail/rigid_body__type_support_c.cpp.o[0m
+[1.984s] [ 61%] Built target mocap4r2_msgs__rosidl_typesupport_c
+[1.991s] [ 63%] [32mBuilding CXX object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mocap4r2_msgs/msg/detail/rigid_bodies__type_support_c.cpp.o[0m
+[2.004s] [ 65%] [32mBuilding C object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mocap4r2_msgs/msg/detail/marker__type_support.c.o[0m
+[2.012s] [ 66%] [32mBuilding C object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mocap4r2_msgs/msg/detail/markers__type_support.c.o[0m
+[2.022s] [ 68%] [32mBuilding C object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mocap4r2_msgs/msg/detail/rigid_body__type_support.c.o[0m
+[2.024s] [ 69%] [32mBuilding C object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mocap4r2_msgs/msg/detail/rigid_bodies__type_support.c.o[0m
+[2.027s] [ 71%] [32mBuilding C object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mocap4r2_msgs/msg/detail/imus_info__type_support.c.o[0m
+[2.073s] [ 74%] [32m[1mLinking CXX shared library libmocap4r2_msgs__rosidl_typesupport_cpp.so[0m
+[2.073s] [ 74%] [32m[1mLinking C shared library libmocap4r2_msgs__rosidl_typesupport_introspection_c.so[0m
+[2.101s] [ 76%] [32m[1mLinking CXX shared library libmocap4r2_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[2.102s] [ 76%] Built target mocap4r2_msgs__rosidl_typesupport_introspection_c
+[2.104s] [ 76%] Built target mocap4r2_msgs__rosidl_typesupport_cpp
+[2.213s] [ 76%] Built target mocap4r2_msgs__rosidl_typesupport_introspection_cpp
+[2.219s] [ 77%] [32m[1mLinking CXX shared library libmocap4r2_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.267s] [ 77%] Built target mocap4r2_msgs__rosidl_typesupport_fastrtps_cpp
+[2.307s] [ 79%] [32m[1mLinking CXX shared library libmocap4r2_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[2.351s] [ 79%] Built target mocap4r2_msgs__rosidl_typesupport_fastrtps_c
+[2.365s] [ 79%] Built target mocap4r2_msgs
+[2.379s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.696s] [ 80%] Built target mocap4r2_msgs__py
+[2.707s] [ 82%] [32mBuilding C object CMakeFiles/mocap4r2_msgs__rosidl_generator_py.dir/rosidl_generator_py/mocap4r2_msgs/msg/_markers_s.c.o[0m
+[2.708s] [ 85%] [32mBuilding C object CMakeFiles/mocap4r2_msgs__rosidl_generator_py.dir/rosidl_generator_py/mocap4r2_msgs/msg/_marker_s.c.o[0m
+[2.708s] [ 85%] [32mBuilding C object CMakeFiles/mocap4r2_msgs__rosidl_generator_py.dir/rosidl_generator_py/mocap4r2_msgs/msg/_imus_info_s.c.o[0m
+[2.708s] [ 87%] [32mBuilding C object CMakeFiles/mocap4r2_msgs__rosidl_generator_py.dir/rosidl_generator_py/mocap4r2_msgs/msg/_rigid_body_s.c.o[0m
+[2.710s] [ 88%] [32mBuilding C object CMakeFiles/mocap4r2_msgs__rosidl_generator_py.dir/rosidl_generator_py/mocap4r2_msgs/msg/_rigid_bodies_s.c.o[0m
+[2.790s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/mocap4r2_msgs/libmocap4r2_msgs__rosidl_generator_py.so[0m
+[2.816s] [ 90%] Built target mocap4r2_msgs__rosidl_generator_py
+[2.831s] [ 92%] [32mBuilding C object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/mocap4r2_msgs/_mocap4r2_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.831s] [ 93%] [32mBuilding C object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/mocap4r2_msgs/_mocap4r2_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.833s] [ 95%] [32mBuilding C object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/mocap4r2_msgs/_mocap4r2_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[2.893s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/mocap4r2_msgs/mocap4r2_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.898s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/mocap4r2_msgs/mocap4r2_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.898s] [100%] [32m[1mLinking C shared library rosidl_generator_py/mocap4r2_msgs/mocap4r2_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.920s] [100%] Built target mocap4r2_msgs__rosidl_typesupport_c__pyext
+[2.928s] [100%] Built target mocap4r2_msgs__rosidl_typesupport_fastrtps_c__pyext
+[2.928s] [100%] Built target mocap4r2_msgs__rosidl_typesupport_introspection_c__pyext
+[2.937s] Invoked command in '/home/workspace/indoor_interface/build/mocap4r2_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/workspace/indoor_interface/build/mocap4r2_msgs -- -j20 -l20
+[2.938s] Invoking command in '/home/workspace/indoor_interface/build/mocap4r2_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/workspace/indoor_interface/build/mocap4r2_msgs
+[2.943s] -- Install configuration: ""
+[2.943s] -- Execute custom install script
+[2.943s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/ament_index/resource_index/rosidl_interfaces/mocap4r2_msgs
+[2.948s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/imus_info__functions.h
+[2.956s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/imus_info__struct.h
+[2.964s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/imus_info__type_support.h
+[2.973s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/marker__functions.h
+[2.983s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/marker__struct.h
+[2.990s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/marker__type_support.h
+[3.001s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/markers__functions.h
+[3.008s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/markers__struct.h
+[3.020s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/markers__type_support.h
+[3.025s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_bodies__functions.h
+[3.030s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_bodies__struct.h
+[3.038s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_bodies__type_support.h
+[3.044s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_body__functions.h
+[3.053s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_body__struct.h
+[3.061s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_body__type_support.h
+[3.070s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/imus_info.h
+[3.082s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/marker.h
+[3.094s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/markers.h
+[3.103s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/rigid_bodies.h
+[3.110s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/rigid_body.h
+[3.120s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/rosidl_generator_c__visibility_control.h
+[3.132s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/environment/library_path.sh
+[3.143s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/environment/library_path.dsv
+[3.151s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/imus_info__rosidl_typesupport_fastrtps_c.h
+[3.163s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/marker__rosidl_typesupport_fastrtps_c.h
+[3.171s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/markers__rosidl_typesupport_fastrtps_c.h
+[3.182s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_bodies__rosidl_typesupport_fastrtps_c.h
+[3.194s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_body__rosidl_typesupport_fastrtps_c.h
+[3.206s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.218s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/imus_info__rosidl_typesupport_introspection_c.h
+[3.230s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/marker__rosidl_typesupport_introspection_c.h
+[3.239s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/markers__rosidl_typesupport_introspection_c.h
+[3.245s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_bodies__rosidl_typesupport_introspection_c.h
+[3.251s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_body__rosidl_typesupport_introspection_c.h
+[3.257s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.264s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/imus_info__builder.hpp
+[3.268s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/imus_info__struct.hpp
+[3.275s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/imus_info__traits.hpp
+[3.283s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/marker__builder.hpp
+[3.291s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/marker__struct.hpp
+[3.299s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/marker__traits.hpp
+[3.307s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/markers__builder.hpp
+[3.315s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/markers__struct.hpp
+[3.321s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/markers__traits.hpp
+[3.332s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_bodies__builder.hpp
+[3.339s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_bodies__struct.hpp
+[3.343s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_bodies__traits.hpp
+[3.348s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_body__builder.hpp
+[3.354s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_body__struct.hpp
+[3.364s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_body__traits.hpp
+[3.371s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/imus_info.hpp
+[3.378s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/marker.hpp
+[3.383s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/markers.hpp
+[3.389s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/rigid_bodies.hpp
+[3.394s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/rigid_body.hpp
+[3.399s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/imus_info__rosidl_typesupport_fastrtps_cpp.hpp
+[3.407s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/marker__rosidl_typesupport_fastrtps_cpp.hpp
+[3.417s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/markers__rosidl_typesupport_fastrtps_cpp.hpp
+[3.427s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_bodies__rosidl_typesupport_fastrtps_cpp.hpp
+[3.438s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_body__rosidl_typesupport_fastrtps_cpp.hpp
+[3.451s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.469s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/imus_info__rosidl_typesupport_introspection_cpp.hpp
+[3.479s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/marker__rosidl_typesupport_introspection_cpp.hpp
+[3.497s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/markers__rosidl_typesupport_introspection_cpp.hpp
+[3.510s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_bodies__rosidl_typesupport_introspection_cpp.hpp
+[3.522s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_body__rosidl_typesupport_introspection_cpp.hpp
+[3.532s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/environment/pythonpath.sh
+[3.537s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/environment/pythonpath.dsv
+[3.543s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/local/lib/python3.10/dist-packages/mocap4r2_msgs-0.0.3-py3.10.egg-info/PKG-INFO
+[3.547s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/local/lib/python3.10/dist-packages/mocap4r2_msgs-0.0.3-py3.10.egg-info/SOURCES.txt
+[3.552s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/local/lib/python3.10/dist-packages/mocap4r2_msgs-0.0.3-py3.10.egg-info/dependency_links.txt
+[3.556s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/local/lib/python3.10/dist-packages/mocap4r2_msgs-0.0.3-py3.10.egg-info/top_level.txt
+[3.562s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/local/lib/python3.10/dist-packages/mocap4r2_msgs/__init__.py
+[3.568s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/local/lib/python3.10/dist-packages/mocap4r2_msgs/_mocap4r2_msgs_s.ep.rosidl_typesupport_c.c
+[3.574s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/local/lib/python3.10/dist-packages/mocap4r2_msgs/_mocap4r2_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.585s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/local/lib/python3.10/dist-packages/mocap4r2_msgs/_mocap4r2_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[3.593s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/local/lib/python3.10/dist-packages/mocap4r2_msgs/libmocap4r2_msgs__rosidl_generator_py.so
+[3.601s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/local/lib/python3.10/dist-packages/mocap4r2_msgs/mocap4r2_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.612s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/local/lib/python3.10/dist-packages/mocap4r2_msgs/mocap4r2_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.628s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/local/lib/python3.10/dist-packages/mocap4r2_msgs/mocap4r2_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.645s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/local/lib/python3.10/dist-packages/mocap4r2_msgs/msg/__init__.py
+[3.664s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/local/lib/python3.10/dist-packages/mocap4r2_msgs/msg/_imus_info.py
+[3.679s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/local/lib/python3.10/dist-packages/mocap4r2_msgs/msg/_imus_info_s.c
+[3.697s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/local/lib/python3.10/dist-packages/mocap4r2_msgs/msg/_marker.py
+[3.716s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/local/lib/python3.10/dist-packages/mocap4r2_msgs/msg/_marker_s.c
+[3.733s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/local/lib/python3.10/dist-packages/mocap4r2_msgs/msg/_markers.py
+[3.747s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/local/lib/python3.10/dist-packages/mocap4r2_msgs/msg/_markers_s.c
+[3.761s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/local/lib/python3.10/dist-packages/mocap4r2_msgs/msg/_rigid_bodies.py
+[3.771s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/local/lib/python3.10/dist-packages/mocap4r2_msgs/msg/_rigid_bodies_s.c
+[3.776s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/local/lib/python3.10/dist-packages/mocap4r2_msgs/msg/_rigid_body.py
+[3.784s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/local/lib/python3.10/dist-packages/mocap4r2_msgs/msg/_rigid_body_s.c
+[3.793s] -- Up-to-date symlink: /home/workspace/indoor_interface/install/mocap4r2_msgs/local/lib/python3.10/dist-packages/mocap4r2_msgs/mocap4r2_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.794s] -- Up-to-date symlink: /home/workspace/indoor_interface/install/mocap4r2_msgs/local/lib/python3.10/dist-packages/mocap4r2_msgs/mocap4r2_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.794s] -- Up-to-date symlink: /home/workspace/indoor_interface/install/mocap4r2_msgs/local/lib/python3.10/dist-packages/mocap4r2_msgs/mocap4r2_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.795s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/msg/Marker.idl
+[3.812s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/msg/Markers.idl
+[3.823s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/msg/ImusInfo.idl
+[3.831s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/msg/RigidBody.idl
+[3.843s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/msg/RigidBodies.idl
+[3.854s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/msg/Marker.msg
+[3.865s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/msg/Markers.msg
+[3.878s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/msg/ImusInfo.msg
+[3.893s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/msg/RigidBody.msg
+[3.903s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/msg/RigidBodies.msg
+[3.907s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/mocap4r2_bridge_mapping_rule.yaml
+[3.912s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/ament_index/resource_index/package_run_dependencies/mocap4r2_msgs
+[3.917s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/ament_index/resource_index/parent_prefix_path/mocap4r2_msgs
+[3.923s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/environment/ament_prefix_path.sh
+[3.927s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/environment/ament_prefix_path.dsv
+[3.934s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/environment/path.sh
+[3.943s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/environment/path.dsv
+[3.957s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/local_setup.bash
+[3.971s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/local_setup.sh
+[3.979s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/local_setup.zsh
+[3.996s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/local_setup.dsv
+[4.006s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/package.dsv
+[4.021s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/ament_index/resource_index/packages/mocap4r2_msgs
+[4.040s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/rosidl_cmake-extras.cmake
+[4.054s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.070s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.087s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[4.107s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[4.120s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.125s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.132s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/mocap4r2_msgsConfig.cmake
+[4.140s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/mocap4r2_msgsConfig-version.cmake
+[4.148s] -- Symlinking: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/package.xml
+[4.155s] -- Installing: /home/workspace/indoor_interface/install/mocap4r2_msgs/lib/libmocap4r2_msgs__rosidl_generator_c.so
+[4.156s] -- Set runtime path of "/home/workspace/indoor_interface/install/mocap4r2_msgs/lib/libmocap4r2_msgs__rosidl_generator_c.so" to ""
+[4.156s] -- Installing: /home/workspace/indoor_interface/install/mocap4r2_msgs/lib/libmocap4r2_msgs__rosidl_typesupport_fastrtps_c.so
+[4.156s] -- Set runtime path of "/home/workspace/indoor_interface/install/mocap4r2_msgs/lib/libmocap4r2_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[4.156s] -- Installing: /home/workspace/indoor_interface/install/mocap4r2_msgs/lib/libmocap4r2_msgs__rosidl_typesupport_introspection_c.so
+[4.156s] -- Set runtime path of "/home/workspace/indoor_interface/install/mocap4r2_msgs/lib/libmocap4r2_msgs__rosidl_typesupport_introspection_c.so" to ""
+[4.156s] -- Installing: /home/workspace/indoor_interface/install/mocap4r2_msgs/lib/libmocap4r2_msgs__rosidl_typesupport_c.so
+[4.157s] -- Set runtime path of "/home/workspace/indoor_interface/install/mocap4r2_msgs/lib/libmocap4r2_msgs__rosidl_typesupport_c.so" to ""
+[4.157s] -- Installing: /home/workspace/indoor_interface/install/mocap4r2_msgs/lib/libmocap4r2_msgs__rosidl_typesupport_fastrtps_cpp.so
+[4.157s] -- Set runtime path of "/home/workspace/indoor_interface/install/mocap4r2_msgs/lib/libmocap4r2_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.157s] -- Installing: /home/workspace/indoor_interface/install/mocap4r2_msgs/lib/libmocap4r2_msgs__rosidl_typesupport_introspection_cpp.so
+[4.157s] -- Set runtime path of "/home/workspace/indoor_interface/install/mocap4r2_msgs/lib/libmocap4r2_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[4.157s] -- Installing: /home/workspace/indoor_interface/install/mocap4r2_msgs/lib/libmocap4r2_msgs__rosidl_typesupport_cpp.so
+[4.158s] -- Set runtime path of "/home/workspace/indoor_interface/install/mocap4r2_msgs/lib/libmocap4r2_msgs__rosidl_typesupport_cpp.so" to ""
+[4.180s] Listing '/home/workspace/indoor_interface/install/mocap4r2_msgs/local/lib/python3.10/dist-packages/mocap4r2_msgs'...
+[4.180s] Compiling '/home/workspace/indoor_interface/install/mocap4r2_msgs/local/lib/python3.10/dist-packages/mocap4r2_msgs/__init__.py'...
+[4.180s] Listing '/home/workspace/indoor_interface/install/mocap4r2_msgs/local/lib/python3.10/dist-packages/mocap4r2_msgs/msg'...
+[4.180s] Compiling '/home/workspace/indoor_interface/install/mocap4r2_msgs/local/lib/python3.10/dist-packages/mocap4r2_msgs/msg/__init__.py'...
+[4.180s] Compiling '/home/workspace/indoor_interface/install/mocap4r2_msgs/local/lib/python3.10/dist-packages/mocap4r2_msgs/msg/_imus_info.py'...
+[4.180s] Compiling '/home/workspace/indoor_interface/install/mocap4r2_msgs/local/lib/python3.10/dist-packages/mocap4r2_msgs/msg/_marker.py'...
+[4.180s] Compiling '/home/workspace/indoor_interface/install/mocap4r2_msgs/local/lib/python3.10/dist-packages/mocap4r2_msgs/msg/_markers.py'...
+[4.180s] Compiling '/home/workspace/indoor_interface/install/mocap4r2_msgs/local/lib/python3.10/dist-packages/mocap4r2_msgs/msg/_rigid_bodies.py'...
+[4.180s] Compiling '/home/workspace/indoor_interface/install/mocap4r2_msgs/local/lib/python3.10/dist-packages/mocap4r2_msgs/msg/_rigid_body.py'...
+[4.182s] -- Installing: /home/workspace/indoor_interface/install/mocap4r2_msgs/lib/libmocap4r2_msgs__rosidl_generator_py.so
+[4.182s] -- Set runtime path of "/home/workspace/indoor_interface/install/mocap4r2_msgs/lib/libmocap4r2_msgs__rosidl_generator_py.so" to ""
+[4.182s] -- Installing: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/export_mocap4r2_msgs__rosidl_generator_cExport.cmake
+[4.182s] -- Installing: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/export_mocap4r2_msgs__rosidl_generator_cExport-noconfig.cmake
+[4.182s] -- Installing: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/export_mocap4r2_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[4.183s] -- Installing: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/export_mocap4r2_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.183s] -- Installing: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/mocap4r2_msgs__rosidl_typesupport_introspection_cExport.cmake
+[4.183s] -- Installing: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/mocap4r2_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.183s] -- Installing: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/mocap4r2_msgs__rosidl_typesupport_cExport.cmake
+[4.183s] -- Installing: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/mocap4r2_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[4.183s] -- Installing: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/export_mocap4r2_msgs__rosidl_generator_cppExport.cmake
+[4.183s] -- Installing: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/export_mocap4r2_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.183s] -- Installing: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/export_mocap4r2_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.183s] -- Installing: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/mocap4r2_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[4.183s] -- Installing: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/mocap4r2_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.183s] -- Installing: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/mocap4r2_msgs__rosidl_typesupport_cppExport.cmake
+[4.183s] -- Installing: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/mocap4r2_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[4.183s] -- Installing: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/export_mocap4r2_msgs__rosidl_generator_pyExport.cmake
+[4.183s] -- Installing: /home/workspace/indoor_interface/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/export_mocap4r2_msgs__rosidl_generator_pyExport-noconfig.cmake
+[4.185s] Invoked command in '/home/workspace/indoor_interface/build/mocap4r2_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/workspace/indoor_interface/build/mocap4r2_msgs

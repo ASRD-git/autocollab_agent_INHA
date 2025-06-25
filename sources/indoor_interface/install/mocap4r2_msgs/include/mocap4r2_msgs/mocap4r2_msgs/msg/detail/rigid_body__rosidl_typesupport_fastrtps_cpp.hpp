@@ -1,0 +1,1 @@
+/home/workspace/indoor_interface/build/mocap4r2_msgs/rosidl_typesupport_fastrtps_cpp/mocap4r2_msgs/msg/detail/rigid_body__rosidl_typesupport_fastrtps_cpp.hpp

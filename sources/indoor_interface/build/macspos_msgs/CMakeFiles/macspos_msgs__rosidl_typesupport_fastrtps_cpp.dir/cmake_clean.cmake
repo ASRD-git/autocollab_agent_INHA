@@ -1,0 +1,21 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/macspos_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/macspos_msgs/msg/detail/dds_fastrtps/agent_external_state__type_support.cpp.o"
+  "CMakeFiles/macspos_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/macspos_msgs/msg/detail/dds_fastrtps/agent_external_state__type_support.cpp.o.d"
+  "CMakeFiles/macspos_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/macspos_msgs/msg/detail/dds_fastrtps/agent_internal_setpoint__type_support.cpp.o"
+  "CMakeFiles/macspos_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/macspos_msgs/msg/detail/dds_fastrtps/agent_internal_setpoint__type_support.cpp.o.d"
+  "CMakeFiles/macspos_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/macspos_msgs/msg/detail/dds_fastrtps/agent_internal_state__type_support.cpp.o"
+  "CMakeFiles/macspos_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/macspos_msgs/msg/detail/dds_fastrtps/agent_internal_state__type_support.cpp.o.d"
+  "libmacspos_msgs__rosidl_typesupport_fastrtps_cpp.pdb"
+  "libmacspos_msgs__rosidl_typesupport_fastrtps_cpp.so"
+  "rosidl_typesupport_fastrtps_cpp/macspos_msgs/msg/detail/agent_external_state__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/macspos_msgs/msg/detail/agent_internal_setpoint__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/macspos_msgs/msg/detail/agent_internal_state__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/macspos_msgs/msg/detail/dds_fastrtps/agent_external_state__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/macspos_msgs/msg/detail/dds_fastrtps/agent_internal_setpoint__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/macspos_msgs/msg/detail/dds_fastrtps/agent_internal_state__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/macspos_msgs__rosidl_typesupport_fastrtps_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

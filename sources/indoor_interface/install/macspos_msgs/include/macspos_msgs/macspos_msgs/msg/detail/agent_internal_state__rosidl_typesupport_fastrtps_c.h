@@ -1,0 +1,1 @@
+/home/workspace/indoor_interface/build/macspos_msgs/rosidl_typesupport_fastrtps_c/macspos_msgs/msg/detail/agent_internal_state__rosidl_typesupport_fastrtps_c.h

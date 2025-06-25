@@ -1,0 +1,6 @@
+setup.py
+macspos_msgs/__init__.py
+macspos_msgs.egg-info/PKG-INFO
+macspos_msgs.egg-info/SOURCES.txt
+macspos_msgs.egg-info/dependency_links.txt
+macspos_msgs.egg-info/top_level.txt

@@ -1,0 +1,1 @@
+/home/workspace/indoor_interface/src/macspos_msgs/msg/AgentInternalState.msg

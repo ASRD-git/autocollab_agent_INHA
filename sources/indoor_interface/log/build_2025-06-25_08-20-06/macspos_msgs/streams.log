@@ -1,0 +1,249 @@
+[0.007s] Invoking command in '/home/workspace/indoor_interface/build/macspos_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/workspace/indoor_interface/src/macspos_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/workspace/indoor_interface/install/macspos_msgs
+[0.052s] -- The C compiler identification is GNU 11.4.0
+[0.092s] -- The CXX compiler identification is GNU 11.4.0
+[0.096s] -- Detecting C compiler ABI info
+[0.145s] -- Detecting C compiler ABI info - done
+[0.149s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.149s] -- Detecting C compile features
+[0.150s] -- Detecting C compile features - done
+[0.152s] -- Detecting CXX compiler ABI info
+[0.204s] -- Detecting CXX compiler ABI info - done
+[0.208s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.208s] -- Detecting CXX compile features
+[0.208s] -- Detecting CXX compile features - done
+[0.209s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.302s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.342s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.358s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.360s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.364s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.384s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.401s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.407s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[0.414s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.608s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.753s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.939s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.954s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[0.954s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.970s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[0.970s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.970s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.970s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.982s] -- Found PythonExtra: .so  
+[1.020s] -- Configuring done
+[1.038s] -- Generating done
+[1.045s] -- Build files have been written to: /home/workspace/indoor_interface/build/macspos_msgs
+[1.049s] Invoked command in '/home/workspace/indoor_interface/build/macspos_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/workspace/indoor_interface/src/macspos_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/workspace/indoor_interface/install/macspos_msgs
+[1.049s] Invoking command in '/home/workspace/indoor_interface/build/macspos_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/workspace/indoor_interface/build/macspos_msgs -- -j20 -l20
+[1.077s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.084s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.088s] [  4%] Built target ament_cmake_python_symlink_macspos_msgs
+[1.209s] running egg_info
+[1.209s] creating macspos_msgs.egg-info
+[1.209s] writing macspos_msgs.egg-info/PKG-INFO
+[1.210s] writing dependency_links to macspos_msgs.egg-info/dependency_links.txt
+[1.210s] writing top-level names to macspos_msgs.egg-info/top_level.txt
+[1.210s] writing manifest file 'macspos_msgs.egg-info/SOURCES.txt'
+[1.211s] reading manifest file 'macspos_msgs.egg-info/SOURCES.txt'
+[1.211s] writing manifest file 'macspos_msgs.egg-info/SOURCES.txt'
+[1.227s] [  4%] Built target ament_cmake_python_build_macspos_msgs_egg
+[1.272s] [  4%] Built target macspos_msgs__cpp
+[1.279s] [  6%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.280s] [  8%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.280s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.293s] [ 12%] [32mBuilding C object CMakeFiles/macspos_msgs__rosidl_generator_c.dir/rosidl_generator_c/macspos_msgs/msg/detail/agent_internal_setpoint__functions.c.o[0m
+[1.293s] [ 14%] [32mBuilding C object CMakeFiles/macspos_msgs__rosidl_generator_c.dir/rosidl_generator_c/macspos_msgs/msg/detail/agent_external_state__functions.c.o[0m
+[1.294s] [ 17%] [32mBuilding C object CMakeFiles/macspos_msgs__rosidl_generator_c.dir/rosidl_generator_c/macspos_msgs/msg/detail/agent_internal_state__functions.c.o[0m
+[1.338s] [ 19%] [32m[1mLinking C shared library libmacspos_msgs__rosidl_generator_c.so[0m
+[1.358s] [ 19%] Built target macspos_msgs__rosidl_generator_c
+[1.364s] [ 21%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.366s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.367s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.439s] [ 29%] [32mBuilding CXX object CMakeFiles/macspos_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/macspos_msgs/msg/agent_internal_state__type_support.cpp.o[0m
+[1.439s] [ 29%] [32mBuilding CXX object CMakeFiles/macspos_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/macspos_msgs/msg/agent_internal_setpoint__type_support.cpp.o[0m
+[1.439s] [ 31%] [32mBuilding CXX object CMakeFiles/macspos_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/macspos_msgs/msg/agent_external_state__type_support.cpp.o[0m
+[1.489s] [ 36%] [32mBuilding CXX object CMakeFiles/macspos_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/macspos_msgs/msg/detail/dds_fastrtps/agent_external_state__type_support.cpp.o[0m
+[1.489s] [ 36%] [32mBuilding CXX object CMakeFiles/macspos_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/macspos_msgs/msg/detail/dds_fastrtps/agent_internal_state__type_support.cpp.o[0m
+[1.489s] [ 38%] [32mBuilding CXX object CMakeFiles/macspos_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/macspos_msgs/msg/detail/dds_fastrtps/agent_internal_setpoint__type_support.cpp.o[0m
+[1.525s] [ 42%] [32mBuilding CXX object CMakeFiles/macspos_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/macspos_msgs/msg/agent_internal_state__type_support.cpp.o[0m
+[1.525s] [ 42%] [32mBuilding CXX object CMakeFiles/macspos_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/macspos_msgs/msg/agent_internal_setpoint__type_support.cpp.o[0m
+[1.531s] [ 44%] [32mBuilding CXX object CMakeFiles/macspos_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/macspos_msgs/msg/agent_external_state__type_support.cpp.o[0m
+[1.565s] [ 46%] [32m[1mLinking CXX shared library libmacspos_msgs__rosidl_typesupport_c.so[0m
+[1.588s] [ 48%] [32mBuilding CXX object CMakeFiles/macspos_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/macspos_msgs/msg/detail/agent_internal_setpoint__type_support.cpp.o[0m
+[1.588s] [ 51%] [32mBuilding CXX object CMakeFiles/macspos_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/macspos_msgs/msg/detail/agent_external_state__type_support_c.cpp.o[0m
+[1.590s] [ 53%] [32mBuilding CXX object CMakeFiles/macspos_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/macspos_msgs/msg/detail/agent_external_state__type_support.cpp.o[0m
+[1.592s] [ 55%] [32mBuilding CXX object CMakeFiles/macspos_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/macspos_msgs/msg/detail/agent_internal_state__type_support_c.cpp.o[0m
+[1.594s] [ 57%] [32mBuilding CXX object CMakeFiles/macspos_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/macspos_msgs/msg/detail/agent_internal_state__type_support.cpp.o[0m
+[1.598s] [ 59%] [32mBuilding CXX object CMakeFiles/macspos_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/macspos_msgs/msg/detail/agent_internal_setpoint__type_support_c.cpp.o[0m
+[1.619s] [ 59%] Built target macspos_msgs__rosidl_typesupport_c
+[1.622s] [ 63%] [32mBuilding C object CMakeFiles/macspos_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/macspos_msgs/msg/detail/agent_internal_setpoint__type_support.c.o[0m
+[1.622s] [ 63%] [32mBuilding C object CMakeFiles/macspos_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/macspos_msgs/msg/detail/agent_external_state__type_support.c.o[0m
+[1.625s] [ 65%] [32mBuilding C object CMakeFiles/macspos_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/macspos_msgs/msg/detail/agent_internal_state__type_support.c.o[0m
+[1.707s] [ 68%] [32m[1mLinking C shared library libmacspos_msgs__rosidl_typesupport_introspection_c.so[0m
+[1.780s] [ 70%] [32m[1mLinking CXX shared library libmacspos_msgs__rosidl_typesupport_cpp.so[0m
+[1.787s] [ 70%] Built target macspos_msgs__rosidl_typesupport_introspection_c
+[1.850s] [ 70%] Built target macspos_msgs__rosidl_typesupport_cpp
+[1.923s] [ 72%] [32m[1mLinking CXX shared library libmacspos_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.101s] [ 72%] Built target macspos_msgs__rosidl_typesupport_fastrtps_cpp
+[2.112s] [ 74%] [32m[1mLinking CXX shared library libmacspos_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[2.156s] [ 76%] [32m[1mLinking CXX shared library libmacspos_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[2.214s] [ 76%] Built target macspos_msgs__rosidl_typesupport_fastrtps_c
+[2.226s] [ 76%] Built target macspos_msgs__rosidl_typesupport_introspection_cpp
+[2.240s] [ 76%] Built target macspos_msgs
+[2.254s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.495s] [ 78%] Built target macspos_msgs__py
+[2.509s] [ 80%] [32mBuilding C object CMakeFiles/macspos_msgs__rosidl_generator_py.dir/rosidl_generator_py/macspos_msgs/msg/_agent_internal_state_s.c.o[0m
+[2.509s] [ 82%] [32mBuilding C object CMakeFiles/macspos_msgs__rosidl_generator_py.dir/rosidl_generator_py/macspos_msgs/msg/_agent_external_state_s.c.o[0m
+[2.509s] [ 85%] [32mBuilding C object CMakeFiles/macspos_msgs__rosidl_generator_py.dir/rosidl_generator_py/macspos_msgs/msg/_agent_internal_setpoint_s.c.o[0m
+[2.569s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/macspos_msgs/libmacspos_msgs__rosidl_generator_py.so[0m
+[2.596s] [ 87%] Built target macspos_msgs__rosidl_generator_py
+[2.610s] [ 89%] [32mBuilding C object CMakeFiles/macspos_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/macspos_msgs/_macspos_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[2.610s] [ 91%] [32mBuilding C object CMakeFiles/macspos_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/macspos_msgs/_macspos_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.611s] [ 93%] [32mBuilding C object CMakeFiles/macspos_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/macspos_msgs/_macspos_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.668s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/macspos_msgs/macspos_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.669s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/macspos_msgs/macspos_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.670s] [100%] [32m[1mLinking C shared library rosidl_generator_py/macspos_msgs/macspos_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.695s] [100%] Built target macspos_msgs__rosidl_typesupport_c__pyext
+[2.698s] [100%] Built target macspos_msgs__rosidl_typesupport_introspection_c__pyext
+[2.703s] [100%] Built target macspos_msgs__rosidl_typesupport_fastrtps_c__pyext
+[2.711s] Invoked command in '/home/workspace/indoor_interface/build/macspos_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/workspace/indoor_interface/build/macspos_msgs -- -j20 -l20
+[2.712s] Invoking command in '/home/workspace/indoor_interface/build/macspos_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/workspace/indoor_interface/build/macspos_msgs
+[2.716s] -- Install configuration: ""
+[2.716s] -- Execute custom install script
+[2.717s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/share/ament_index/resource_index/rosidl_interfaces/macspos_msgs
+[2.722s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/include/macspos_msgs/macspos_msgs/msg/agent_external_state.h
+[2.727s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/include/macspos_msgs/macspos_msgs/msg/agent_internal_setpoint.h
+[2.734s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/include/macspos_msgs/macspos_msgs/msg/agent_internal_state.h
+[2.739s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/include/macspos_msgs/macspos_msgs/msg/detail/agent_external_state__functions.h
+[2.746s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/include/macspos_msgs/macspos_msgs/msg/detail/agent_external_state__struct.h
+[2.751s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/include/macspos_msgs/macspos_msgs/msg/detail/agent_external_state__type_support.h
+[2.756s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/include/macspos_msgs/macspos_msgs/msg/detail/agent_internal_setpoint__functions.h
+[2.760s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/include/macspos_msgs/macspos_msgs/msg/detail/agent_internal_setpoint__struct.h
+[2.765s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/include/macspos_msgs/macspos_msgs/msg/detail/agent_internal_setpoint__type_support.h
+[2.770s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/include/macspos_msgs/macspos_msgs/msg/detail/agent_internal_state__functions.h
+[2.774s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/include/macspos_msgs/macspos_msgs/msg/detail/agent_internal_state__struct.h
+[2.778s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/include/macspos_msgs/macspos_msgs/msg/detail/agent_internal_state__type_support.h
+[2.784s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/include/macspos_msgs/macspos_msgs/msg/rosidl_generator_c__visibility_control.h
+[2.788s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/environment/library_path.sh
+[2.794s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/environment/library_path.dsv
+[2.800s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/include/macspos_msgs/macspos_msgs/msg/detail/agent_external_state__rosidl_typesupport_fastrtps_c.h
+[2.806s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/include/macspos_msgs/macspos_msgs/msg/detail/agent_internal_setpoint__rosidl_typesupport_fastrtps_c.h
+[2.811s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/include/macspos_msgs/macspos_msgs/msg/detail/agent_internal_state__rosidl_typesupport_fastrtps_c.h
+[2.817s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/include/macspos_msgs/macspos_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.822s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/include/macspos_msgs/macspos_msgs/msg/detail/agent_external_state__rosidl_typesupport_introspection_c.h
+[2.830s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/include/macspos_msgs/macspos_msgs/msg/detail/agent_internal_setpoint__rosidl_typesupport_introspection_c.h
+[2.836s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/include/macspos_msgs/macspos_msgs/msg/detail/agent_internal_state__rosidl_typesupport_introspection_c.h
+[2.842s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/include/macspos_msgs/macspos_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.847s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/include/macspos_msgs/macspos_msgs/msg/agent_external_state.hpp
+[2.851s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/include/macspos_msgs/macspos_msgs/msg/agent_internal_setpoint.hpp
+[2.857s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/include/macspos_msgs/macspos_msgs/msg/agent_internal_state.hpp
+[2.861s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/include/macspos_msgs/macspos_msgs/msg/detail/agent_external_state__builder.hpp
+[2.866s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/include/macspos_msgs/macspos_msgs/msg/detail/agent_external_state__struct.hpp
+[2.872s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/include/macspos_msgs/macspos_msgs/msg/detail/agent_external_state__traits.hpp
+[2.878s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/include/macspos_msgs/macspos_msgs/msg/detail/agent_internal_setpoint__builder.hpp
+[2.883s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/include/macspos_msgs/macspos_msgs/msg/detail/agent_internal_setpoint__struct.hpp
+[2.889s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/include/macspos_msgs/macspos_msgs/msg/detail/agent_internal_setpoint__traits.hpp
+[2.894s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/include/macspos_msgs/macspos_msgs/msg/detail/agent_internal_state__builder.hpp
+[2.900s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/include/macspos_msgs/macspos_msgs/msg/detail/agent_internal_state__struct.hpp
+[2.905s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/include/macspos_msgs/macspos_msgs/msg/detail/agent_internal_state__traits.hpp
+[2.911s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/include/macspos_msgs/macspos_msgs/msg/detail/agent_external_state__rosidl_typesupport_fastrtps_cpp.hpp
+[2.917s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/include/macspos_msgs/macspos_msgs/msg/detail/agent_internal_setpoint__rosidl_typesupport_fastrtps_cpp.hpp
+[2.923s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/include/macspos_msgs/macspos_msgs/msg/detail/agent_internal_state__rosidl_typesupport_fastrtps_cpp.hpp
+[2.928s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/include/macspos_msgs/macspos_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.933s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/include/macspos_msgs/macspos_msgs/msg/detail/agent_external_state__rosidl_typesupport_introspection_cpp.hpp
+[2.939s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/include/macspos_msgs/macspos_msgs/msg/detail/agent_internal_setpoint__rosidl_typesupport_introspection_cpp.hpp
+[2.943s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/include/macspos_msgs/macspos_msgs/msg/detail/agent_internal_state__rosidl_typesupport_introspection_cpp.hpp
+[2.948s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/environment/pythonpath.sh
+[2.953s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/environment/pythonpath.dsv
+[2.961s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/local/lib/python3.10/dist-packages/macspos_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[2.969s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/local/lib/python3.10/dist-packages/macspos_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.978s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/local/lib/python3.10/dist-packages/macspos_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.987s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/local/lib/python3.10/dist-packages/macspos_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[2.996s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/local/lib/python3.10/dist-packages/macspos_msgs/__init__.py
+[3.005s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/local/lib/python3.10/dist-packages/macspos_msgs/_macspos_msgs_s.ep.rosidl_typesupport_c.c
+[3.013s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/local/lib/python3.10/dist-packages/macspos_msgs/_macspos_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.024s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/local/lib/python3.10/dist-packages/macspos_msgs/_macspos_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[3.031s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/local/lib/python3.10/dist-packages/macspos_msgs/libmacspos_msgs__rosidl_generator_py.so
+[3.039s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/local/lib/python3.10/dist-packages/macspos_msgs/macspos_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.046s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/local/lib/python3.10/dist-packages/macspos_msgs/macspos_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.053s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/local/lib/python3.10/dist-packages/macspos_msgs/macspos_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.062s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/local/lib/python3.10/dist-packages/macspos_msgs/msg/__init__.py
+[3.070s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/local/lib/python3.10/dist-packages/macspos_msgs/msg/_agent_external_state.py
+[3.079s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/local/lib/python3.10/dist-packages/macspos_msgs/msg/_agent_external_state_s.c
+[3.091s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/local/lib/python3.10/dist-packages/macspos_msgs/msg/_agent_internal_setpoint.py
+[3.101s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/local/lib/python3.10/dist-packages/macspos_msgs/msg/_agent_internal_setpoint_s.c
+[3.109s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/local/lib/python3.10/dist-packages/macspos_msgs/msg/_agent_internal_state.py
+[3.117s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/local/lib/python3.10/dist-packages/macspos_msgs/msg/_agent_internal_state_s.c
+[3.132s] -- Up-to-date symlink: /home/workspace/indoor_interface/install/macspos_msgs/local/lib/python3.10/dist-packages/macspos_msgs/macspos_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.132s] -- Up-to-date symlink: /home/workspace/indoor_interface/install/macspos_msgs/local/lib/python3.10/dist-packages/macspos_msgs/macspos_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.133s] -- Up-to-date symlink: /home/workspace/indoor_interface/install/macspos_msgs/local/lib/python3.10/dist-packages/macspos_msgs/macspos_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.133s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/msg/AgentExternalState.idl
+[3.143s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/msg/AgentInternalSetpoint.idl
+[3.151s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/msg/AgentInternalState.idl
+[3.159s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/msg/AgentExternalState.msg
+[3.170s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/msg/AgentInternalSetpoint.msg
+[3.181s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/msg/AgentInternalState.msg
+[3.190s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/share/ament_index/resource_index/package_run_dependencies/macspos_msgs
+[3.202s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/share/ament_index/resource_index/parent_prefix_path/macspos_msgs
+[3.214s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/environment/ament_prefix_path.sh
+[3.229s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/environment/ament_prefix_path.dsv
+[3.237s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/environment/path.sh
+[3.245s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/environment/path.dsv
+[3.250s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/local_setup.bash
+[3.256s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/local_setup.sh
+[3.263s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/local_setup.zsh
+[3.267s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/local_setup.dsv
+[3.273s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/package.dsv
+[3.280s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/share/ament_index/resource_index/packages/macspos_msgs
+[3.287s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/cmake/rosidl_cmake-extras.cmake
+[3.293s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.301s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.307s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[3.312s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[3.323s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.330s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.338s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/cmake/macspos_msgsConfig.cmake
+[3.344s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/cmake/macspos_msgsConfig-version.cmake
+[3.349s] -- Symlinking: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/package.xml
+[3.356s] -- Installing: /home/workspace/indoor_interface/install/macspos_msgs/lib/libmacspos_msgs__rosidl_generator_c.so
+[3.356s] -- Set runtime path of "/home/workspace/indoor_interface/install/macspos_msgs/lib/libmacspos_msgs__rosidl_generator_c.so" to ""
+[3.356s] -- Installing: /home/workspace/indoor_interface/install/macspos_msgs/lib/libmacspos_msgs__rosidl_typesupport_fastrtps_c.so
+[3.356s] -- Set runtime path of "/home/workspace/indoor_interface/install/macspos_msgs/lib/libmacspos_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[3.356s] -- Installing: /home/workspace/indoor_interface/install/macspos_msgs/lib/libmacspos_msgs__rosidl_typesupport_introspection_c.so
+[3.357s] -- Set runtime path of "/home/workspace/indoor_interface/install/macspos_msgs/lib/libmacspos_msgs__rosidl_typesupport_introspection_c.so" to ""
+[3.357s] -- Installing: /home/workspace/indoor_interface/install/macspos_msgs/lib/libmacspos_msgs__rosidl_typesupport_c.so
+[3.357s] -- Set runtime path of "/home/workspace/indoor_interface/install/macspos_msgs/lib/libmacspos_msgs__rosidl_typesupport_c.so" to ""
+[3.357s] -- Installing: /home/workspace/indoor_interface/install/macspos_msgs/lib/libmacspos_msgs__rosidl_typesupport_fastrtps_cpp.so
+[3.357s] -- Set runtime path of "/home/workspace/indoor_interface/install/macspos_msgs/lib/libmacspos_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.357s] -- Installing: /home/workspace/indoor_interface/install/macspos_msgs/lib/libmacspos_msgs__rosidl_typesupport_introspection_cpp.so
+[3.357s] -- Set runtime path of "/home/workspace/indoor_interface/install/macspos_msgs/lib/libmacspos_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[3.357s] -- Installing: /home/workspace/indoor_interface/install/macspos_msgs/lib/libmacspos_msgs__rosidl_typesupport_cpp.so
+[3.357s] -- Set runtime path of "/home/workspace/indoor_interface/install/macspos_msgs/lib/libmacspos_msgs__rosidl_typesupport_cpp.so" to ""
+[3.386s] Listing '/home/workspace/indoor_interface/install/macspos_msgs/local/lib/python3.10/dist-packages/macspos_msgs'...
+[3.386s] Compiling '/home/workspace/indoor_interface/install/macspos_msgs/local/lib/python3.10/dist-packages/macspos_msgs/__init__.py'...
+[3.386s] Listing '/home/workspace/indoor_interface/install/macspos_msgs/local/lib/python3.10/dist-packages/macspos_msgs/msg'...
+[3.386s] Compiling '/home/workspace/indoor_interface/install/macspos_msgs/local/lib/python3.10/dist-packages/macspos_msgs/msg/__init__.py'...
+[3.386s] Compiling '/home/workspace/indoor_interface/install/macspos_msgs/local/lib/python3.10/dist-packages/macspos_msgs/msg/_agent_external_state.py'...
+[3.386s] Compiling '/home/workspace/indoor_interface/install/macspos_msgs/local/lib/python3.10/dist-packages/macspos_msgs/msg/_agent_internal_setpoint.py'...
+[3.386s] Compiling '/home/workspace/indoor_interface/install/macspos_msgs/local/lib/python3.10/dist-packages/macspos_msgs/msg/_agent_internal_state.py'...
+[3.388s] -- Installing: /home/workspace/indoor_interface/install/macspos_msgs/lib/libmacspos_msgs__rosidl_generator_py.so
+[3.389s] -- Set runtime path of "/home/workspace/indoor_interface/install/macspos_msgs/lib/libmacspos_msgs__rosidl_generator_py.so" to ""
+[3.389s] -- Installing: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/cmake/export_macspos_msgs__rosidl_generator_cExport.cmake
+[3.389s] -- Installing: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/cmake/export_macspos_msgs__rosidl_generator_cExport-noconfig.cmake
+[3.389s] -- Installing: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/cmake/export_macspos_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[3.389s] -- Installing: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/cmake/export_macspos_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.389s] -- Installing: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/cmake/macspos_msgs__rosidl_typesupport_introspection_cExport.cmake
+[3.389s] -- Installing: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/cmake/macspos_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.389s] -- Installing: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/cmake/macspos_msgs__rosidl_typesupport_cExport.cmake
+[3.389s] -- Installing: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/cmake/macspos_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[3.389s] -- Installing: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/cmake/export_macspos_msgs__rosidl_generator_cppExport.cmake
+[3.389s] -- Installing: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/cmake/export_macspos_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.390s] -- Installing: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/cmake/export_macspos_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.390s] -- Installing: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/cmake/macspos_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[3.390s] -- Installing: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/cmake/macspos_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.390s] -- Installing: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/cmake/macspos_msgs__rosidl_typesupport_cppExport.cmake
+[3.390s] -- Installing: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/cmake/macspos_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[3.390s] -- Installing: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/cmake/export_macspos_msgs__rosidl_generator_pyExport.cmake
+[3.390s] -- Installing: /home/workspace/indoor_interface/install/macspos_msgs/share/macspos_msgs/cmake/export_macspos_msgs__rosidl_generator_pyExport-noconfig.cmake
+[3.391s] Invoked command in '/home/workspace/indoor_interface/build/macspos_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/workspace/indoor_interface/build/macspos_msgs

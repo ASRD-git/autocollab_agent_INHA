@@ -1,0 +1,8 @@
+{
+  "package_name": "macspos_msgs",
+  "non_idl_tuples": [
+    "/home/workspace/indoor_interface/src/macspos_msgs:msg/AgentExternalState.msg",
+    "/home/workspace/indoor_interface/src/macspos_msgs:msg/AgentInternalSetpoint.msg",
+    "/home/workspace/indoor_interface/src/macspos_msgs:msg/AgentInternalState.msg"
+  ]
+}

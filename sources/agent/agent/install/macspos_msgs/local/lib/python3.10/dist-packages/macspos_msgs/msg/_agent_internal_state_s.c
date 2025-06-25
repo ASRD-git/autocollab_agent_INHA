@@ -1,0 +1,1 @@
+/home/workspace/agent/agent/build/macspos_msgs/rosidl_generator_py/macspos_msgs/msg/_agent_internal_state_s.c

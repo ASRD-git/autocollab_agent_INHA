@@ -1,0 +1,1 @@
+/home/workspace/indoor_interface/build/macspos_msgs/ament_cmake_environment_hooks/pythonpath.sh
