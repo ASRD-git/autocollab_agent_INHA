@@ -1,1 +1,0 @@
-/home/workspace/agent/agent/build/macspos_msgs/rosidl_generator_c/macspos_msgs/msg/agent_external_state.h

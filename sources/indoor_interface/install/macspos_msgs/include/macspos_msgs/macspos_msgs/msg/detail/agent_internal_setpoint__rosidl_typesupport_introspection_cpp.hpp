@@ -1,1 +1,0 @@
-/home/workspace/indoor_interface/build/macspos_msgs/rosidl_typesupport_introspection_cpp/macspos_msgs/msg/detail/agent_internal_setpoint__rosidl_typesupport_introspection_cpp.hpp

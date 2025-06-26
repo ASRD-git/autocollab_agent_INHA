@@ -1,1 +1,0 @@
-/home/workspace/agent/agent/build/macspos_msgs/rosidl_generator_c/macspos_msgs/msg/detail/agent_internal_setpoint__type_support.h

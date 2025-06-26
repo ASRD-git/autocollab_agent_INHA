@@ -1,1 +1,0 @@
-/home/workspace/indoor_interface/src/mocap4r2_msgs/msg/RigidBodies.msg

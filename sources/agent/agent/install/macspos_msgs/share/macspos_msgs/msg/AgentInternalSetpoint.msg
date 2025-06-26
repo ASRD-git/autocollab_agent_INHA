@@ -1,1 +1,0 @@
-/home/workspace/agent/agent/src/macspos_msgs/msg/AgentInternalSetpoint.msg

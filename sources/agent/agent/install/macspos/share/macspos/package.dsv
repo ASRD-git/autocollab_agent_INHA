@@ -1,8 +1,0 @@
-source;share/macspos/hook/cmake_prefix_path.ps1
-source;share/macspos/hook/cmake_prefix_path.dsv
-source;share/macspos/hook/cmake_prefix_path.sh
-source;share/macspos/local_setup.bash
-source;share/macspos/local_setup.dsv
-source;share/macspos/local_setup.ps1
-source;share/macspos/local_setup.sh
-source;share/macspos/local_setup.zsh

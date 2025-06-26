@@ -1,1 +1,0 @@
-/home/workspace/indoor_interface/build/qcf_interface/ament_cmake_environment_hooks/local_setup.bash

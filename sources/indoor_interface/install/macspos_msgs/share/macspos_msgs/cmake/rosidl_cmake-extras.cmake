@@ -1,1 +1,0 @@
-/home/workspace/indoor_interface/build/macspos_msgs/rosidl_cmake/rosidl_cmake-extras.cmake

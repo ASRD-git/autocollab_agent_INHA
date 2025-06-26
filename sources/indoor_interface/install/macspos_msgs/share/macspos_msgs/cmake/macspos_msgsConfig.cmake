@@ -1,1 +1,0 @@
-/home/workspace/indoor_interface/build/macspos_msgs/ament_cmake_core/macspos_msgsConfig.cmake

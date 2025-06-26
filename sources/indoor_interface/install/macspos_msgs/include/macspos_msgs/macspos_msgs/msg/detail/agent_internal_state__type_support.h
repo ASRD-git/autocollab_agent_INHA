@@ -1,1 +1,0 @@
-/home/workspace/indoor_interface/build/macspos_msgs/rosidl_generator_c/macspos_msgs/msg/detail/agent_internal_state__type_support.h
