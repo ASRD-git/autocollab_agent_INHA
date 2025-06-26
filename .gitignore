@@ -1,0 +1,14 @@
+# colcon build artifacts
+build/
+install/
+log/
+
+# ROS-specific ignores (optional)
+*.pyc
+*.swp
+.deps/
+*.log
+
+# vscode or editor stuff (optional)
+.vscode/
+.idea/
