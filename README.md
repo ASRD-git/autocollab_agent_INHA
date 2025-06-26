@@ -41,3 +41,7 @@
 |position_setpoint  |float32[3]  |NED position command                                         | m        | 
 |velocity_setpoint  |float32[3]  |NED velocity command                                         | m/s      |
 
+## Update plan
+- NED 좌표계 데이터 위도, 경도, 고도로 전환
+- 코드 경량화
+- 경로점 정보 입력 인터페이스 추가
