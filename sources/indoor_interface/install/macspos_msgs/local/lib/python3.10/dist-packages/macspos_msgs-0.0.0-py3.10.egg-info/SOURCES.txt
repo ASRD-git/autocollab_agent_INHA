@@ -1,1 +1,0 @@
-/home/workspace/indoor_interface/build/macspos_msgs/ament_cmake_python/macspos_msgs/macspos_msgs.egg-info/SOURCES.txt

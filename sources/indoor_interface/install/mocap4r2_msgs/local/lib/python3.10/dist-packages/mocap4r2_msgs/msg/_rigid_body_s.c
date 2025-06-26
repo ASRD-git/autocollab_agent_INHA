@@ -1,1 +1,0 @@
-/home/workspace/indoor_interface/build/mocap4r2_msgs/rosidl_generator_py/mocap4r2_msgs/msg/_rigid_body_s.c

@@ -1,1 +1,0 @@
-/home/workspace/indoor_interface/src/macspos_msgs/msg/AgentExternalState.msg

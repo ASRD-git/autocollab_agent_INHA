@@ -1,9 +1,0 @@
-/home/workspace/agent/agent/build/macspos/CMakeFiles/uninstall.dir
-/home/workspace/agent/agent/build/macspos/CMakeFiles/macspos_uninstall.dir
-/home/workspace/agent/agent/build/macspos/CMakeFiles/test.dir
-/home/workspace/agent/agent/build/macspos/CMakeFiles/edit_cache.dir
-/home/workspace/agent/agent/build/macspos/CMakeFiles/rebuild_cache.dir
-/home/workspace/agent/agent/build/macspos/CMakeFiles/list_install_components.dir
-/home/workspace/agent/agent/build/macspos/CMakeFiles/install.dir
-/home/workspace/agent/agent/build/macspos/CMakeFiles/install/local.dir
-/home/workspace/agent/agent/build/macspos/CMakeFiles/install/strip.dir

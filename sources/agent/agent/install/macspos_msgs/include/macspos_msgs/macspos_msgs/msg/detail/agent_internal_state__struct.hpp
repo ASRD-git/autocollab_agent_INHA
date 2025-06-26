@@ -1,1 +1,0 @@
-/home/workspace/agent/agent/build/macspos_msgs/rosidl_generator_cpp/macspos_msgs/msg/detail/agent_internal_state__struct.hpp

@@ -1,1 +1,0 @@
-/home/workspace/indoor_interface/build/mocap4r2_msgs/rosidl_typesupport_fastrtps_c/mocap4r2_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h

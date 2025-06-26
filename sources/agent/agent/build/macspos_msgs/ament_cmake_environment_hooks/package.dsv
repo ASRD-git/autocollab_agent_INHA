@@ -1,4 +1,0 @@
-source;share/macspos_msgs/local_setup.bash
-source;share/macspos_msgs/local_setup.dsv
-source;share/macspos_msgs/local_setup.sh
-source;share/macspos_msgs/local_setup.zsh

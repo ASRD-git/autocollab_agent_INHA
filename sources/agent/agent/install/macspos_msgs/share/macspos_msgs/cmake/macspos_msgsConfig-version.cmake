@@ -1,1 +1,0 @@
-/home/workspace/agent/agent/build/macspos_msgs/ament_cmake_core/macspos_msgsConfig-version.cmake

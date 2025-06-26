@@ -1,1 +1,0 @@
-/home/workspace/indoor_interface/build/mocap4r2_msgs/rosidl_generator_c/mocap4r2_msgs/msg/rigid_bodies.h

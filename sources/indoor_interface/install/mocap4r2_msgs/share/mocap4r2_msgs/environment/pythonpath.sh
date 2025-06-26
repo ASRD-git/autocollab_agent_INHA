@@ -1,1 +1,0 @@
-/home/workspace/indoor_interface/build/mocap4r2_msgs/ament_cmake_environment_hooks/pythonpath.sh

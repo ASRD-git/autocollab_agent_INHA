@@ -1,1 +1,0 @@
-/home/workspace/indoor_interface/build/mocap4r2_msgs/rosidl_typesupport_introspection_c/mocap4r2_msgs/msg/detail/marker__rosidl_typesupport_introspection_c.h

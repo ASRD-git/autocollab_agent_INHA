@@ -1,1 +1,0 @@
-/home/workspace/agent/agent/build/macspos/ament_cmake_environment_hooks/local_setup.bash
